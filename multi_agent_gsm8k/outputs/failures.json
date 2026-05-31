@@ -1,0 +1,37 @@
+[
+  {
+    "question": "Owen bought 11 packs of trading cards with 8 cards per pack. He gave 15 cards to his brother and split the rest equally among 3 binders. How many cards went in each binder?",
+    "prediction": "73/3",
+    "gold_answer": "24",
+    "failure_type": "wrong_arithmetic_or_reasoning",
+    "analysis": "single predicted 73/3 but gold is 24. Review solver arithmetic and whether the finalizer copied the best-supported answer."
+  },
+  {
+    "question": "A bakery sells muffins in boxes of 6 and cookies in boxes of 8. On Monday it sold 14 boxes of muffins and 9 boxes of cookies. If 17 baked goods were returned because they were stale, how many baked goods were successfully sold?",
+    "prediction": "139",
+    "gold_answer": "139",
+    "failure_type": "no_failure_observed",
+    "analysis": "This run produced fewer than 5 real failures. This supplemental entry keeps the analysis file shape stable without marking the trace incorrect."
+  },
+  {
+    "question": "Jada has 3 times as many stickers as Leo. Leo has 18 fewer stickers than Mina. Mina has 42 stickers. If Jada gives away 25 stickers, how many stickers does Jada have left?",
+    "prediction": "47",
+    "gold_answer": "47",
+    "failure_type": "no_failure_observed",
+    "analysis": "This run produced fewer than 5 real failures. This supplemental entry keeps the analysis file shape stable without marking the trace incorrect."
+  },
+  {
+    "question": "A train has 12 cars. Each car has 8 rows, and each row has 4 seats. On a trip, 73 seats are empty. How many passengers are on the train?",
+    "prediction": "311",
+    "gold_answer": "311",
+    "failure_type": "no_failure_observed",
+    "analysis": "This run produced fewer than 5 real failures. This supplemental entry keeps the analysis file shape stable without marking the trace incorrect."
+  },
+  {
+    "question": "Nora reads 15 pages on Monday, twice as many pages on Tuesday, and 9 fewer pages on Wednesday than on Tuesday. How many pages does she read in all three days?",
+    "prediction": "66",
+    "gold_answer": "66",
+    "failure_type": "no_failure_observed",
+    "analysis": "This run produced fewer than 5 real failures. This supplemental entry keeps the analysis file shape stable without marking the trace incorrect."
+  }
+]

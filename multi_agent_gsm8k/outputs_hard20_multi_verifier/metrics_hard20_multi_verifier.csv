@@ -1,0 +1,2 @@
+setting,setting_name,num_examples,correct,accuracy,prompt_tokens,completion_tokens,total_tokens,avg_total_tokens
+multi_verifier,Multi-Agent + Verifier,20,20,1.0,19648,19193,38841,1942.05

@@ -1,0 +1,37 @@
+[
+  {
+    "question": "A store sells notebooks for $3 each and pens for $2 each. On Monday it sold 4 times as many pens as notebooks and made $154. How many pens did it sell?",
+    "prediction": "56",
+    "gold_answer": "56",
+    "failure_type": "no_failure_observed",
+    "analysis": "This run produced fewer than 5 real failures. This supplemental entry keeps the analysis file shape stable without marking the trace incorrect."
+  },
+  {
+    "question": "Maya had some beads. She used 2/5 of them for a necklace, then gave 18 beads to her sister. She had 42 beads left. How many beads did Maya have at first?",
+    "prediction": "100",
+    "gold_answer": "100",
+    "failure_type": "no_failure_observed",
+    "analysis": "This run produced fewer than 5 real failures. This supplemental entry keeps the analysis file shape stable without marking the trace incorrect."
+  },
+  {
+    "question": "A school bus route has 6 stops. At the first stop 12 students get on. At each later stop, 5 more students get on than at the previous stop. If 7 students get off before school, how many students arrive at school?",
+    "prediction": "140",
+    "gold_answer": "140",
+    "failure_type": "no_failure_observed",
+    "analysis": "This run produced fewer than 5 real failures. This supplemental entry keeps the analysis file shape stable without marking the trace incorrect."
+  },
+  {
+    "question": "A baker made 3 trays of cupcakes with 24 cupcakes per tray. She sold 5/8 of all cupcakes in the morning and 19 more in the afternoon. How many cupcakes were left?",
+    "prediction": "8",
+    "gold_answer": "8",
+    "failure_type": "no_failure_observed",
+    "analysis": "This run produced fewer than 5 real failures. This supplemental entry keeps the analysis file shape stable without marking the trace incorrect."
+  },
+  {
+    "question": "Daniel has twice as many red marbles as blue marbles. He has 15 fewer green marbles than red marbles. If he has 105 marbles total, how many green marbles does he have?",
+    "prediction": "33",
+    "gold_answer": "33",
+    "failure_type": "no_failure_observed",
+    "analysis": "This run produced fewer than 5 real failures. This supplemental entry keeps the analysis file shape stable without marking the trace incorrect."
+  }
+]

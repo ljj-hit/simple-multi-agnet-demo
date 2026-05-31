@@ -1,0 +1,1042 @@
+[
+  {
+    "question": "A bakery sells muffins in boxes of 6 and cookies in boxes of 8. On Monday it sold 14 boxes of muffins and 9 boxes of cookies. If 17 baked goods were returned because they were stale, how many baked goods were successfully sold?",
+    "gold_answer": "139",
+    "setting": "single",
+    "setting_name": "Single Agent",
+    "solver_a_output": "The bakery sold 14 boxes of muffins, each containing 6 muffins, so 14 × 6 = 84 muffins. It also sold 9 boxes of cookies, each containing 8 cookies, so 9 × 8 = 72 cookies. The total baked goods sold initially is 84 + 72 = 156. With 17 returned, the number successfully sold is 156 - 17 = 139.\n\nFinal Answer: 139",
+    "solver_b_output": "",
+    "verifier_output": {},
+    "final_prediction": "139",
+    "correct": true,
+    "token_usage": {
+      "prompt_tokens": 297,
+      "completion_tokens": 360,
+      "total_tokens": 657
+    }
+  },
+  {
+    "question": "Jada has 3 times as many stickers as Leo. Leo has 18 fewer stickers than Mina. Mina has 42 stickers. If Jada gives away 25 stickers, how many stickers does Jada have left?",
+    "gold_answer": "47",
+    "setting": "single",
+    "setting_name": "Single Agent",
+    "solver_a_output": "Mina has 42 stickers.  \nLeo has 18 fewer than Mina, so Leo has 42 - 18 = 24 stickers.  \nJada has 3 times as many as Leo, so Jada has 3 × 24 = 72 stickers.  \nAfter giving away 25, Jada has 72 - 25 = 47 stickers left.\n\nFinal Answer: 47",
+    "solver_b_output": "",
+    "verifier_output": {},
+    "final_prediction": "47",
+    "correct": true,
+    "token_usage": {
+      "prompt_tokens": 270,
+      "completion_tokens": 269,
+      "total_tokens": 539
+    }
+  },
+  {
+    "question": "A train has 12 cars. Each car has 8 rows, and each row has 4 seats. On a trip, 73 seats are empty. How many passengers are on the train?",
+    "gold_answer": "311",
+    "setting": "single",
+    "setting_name": "Single Agent",
+    "solver_a_output": "The train has 12 cars, each with 8 rows of 4 seats. Total seats = 12 × 8 × 4 = 384. With 73 empty seats, the number of passengers is 384 − 73 = 311.\n\nFinal Answer: 311",
+    "solver_b_output": "",
+    "verifier_output": {},
+    "final_prediction": "311",
+    "correct": true,
+    "token_usage": {
+      "prompt_tokens": 236,
+      "completion_tokens": 305,
+      "total_tokens": 541
+    }
+  },
+  {
+    "question": "Nora reads 15 pages on Monday, twice as many pages on Tuesday, and 9 fewer pages on Wednesday than on Tuesday. How many pages does she read in all three days?",
+    "gold_answer": "66",
+    "setting": "single",
+    "setting_name": "Single Agent",
+    "solver_a_output": "Monday: 15 pages.\nTuesday: twice Monday = 2 × 15 = 30 pages.\nWednesday: 9 fewer than Tuesday = 30 − 9 = 21 pages.\nTotal: 15 + 30 + 21 = 66 pages.\nFinal Answer: 66",
+    "solver_b_output": "",
+    "verifier_output": {},
+    "final_prediction": "66",
+    "correct": true,
+    "token_usage": {
+      "prompt_tokens": 234,
+      "completion_tokens": 214,
+      "total_tokens": 448
+    }
+  },
+  {
+    "question": "A store bought 45 notebooks for $2 each and sold them for $5 each. It also spent $18 on a sign. What was the store's profit after all notebooks were sold?",
+    "gold_answer": "117",
+    "setting": "single",
+    "setting_name": "Single Agent",
+    "solver_a_output": "The store bought 45 notebooks at $2 each, costing 45 × $2 = $90. It sold them at $5 each, earning 45 × $5 = $225. Additional expense: $18 for a sign. Total cost: $90 + $18 = $108. Profit: $225 - $108 = $117.\n\nFinal Answer: 117",
+    "solver_b_output": "",
+    "verifier_output": {},
+    "final_prediction": "117",
+    "correct": true,
+    "token_usage": {
+      "prompt_tokens": 253,
+      "completion_tokens": 360,
+      "total_tokens": 613
+    }
+  },
+  {
+    "question": "Carlos has 5 bags of marbles with 16 marbles in each bag. He loses 23 marbles and then buys 4 more bags with 12 marbles in each. How many marbles does he have now?",
+    "gold_answer": "105",
+    "setting": "single",
+    "setting_name": "Single Agent",
+    "solver_a_output": "Carlos starts with 5 bags of 16 marbles each, so 5 × 16 = 80 marbles.  \nHe loses 23 marbles: 80 - 23 = 57 marbles remain.  \nHe then buys 4 bags of 12 marbles each: 4 × 12 = 48 marbles.  \nTotal now: 57 + 48 = 105 marbles.\n\nFinal Answer: 105",
+    "solver_b_output": "",
+    "verifier_output": {},
+    "final_prediction": "105",
+    "correct": true,
+    "token_usage": {
+      "prompt_tokens": 269,
+      "completion_tokens": 221,
+      "total_tokens": 490
+    }
+  },
+  {
+    "question": "A farmer packs eggs into cartons of 12. She collects 268 eggs, but 16 crack before packing. How many full cartons can she fill?",
+    "gold_answer": "21",
+    "setting": "single",
+    "setting_name": "Single Agent",
+    "solver_a_output": "The farmer collects 268 eggs, but 16 crack, leaving 268 - 16 = 252 eggs. Each carton holds 12 eggs. The number of full cartons is 252 ÷ 12 = 21.\n\nFinal Answer: 21",
+    "solver_b_output": "",
+    "verifier_output": {},
+    "final_prediction": "21",
+    "correct": true,
+    "token_usage": {
+      "prompt_tokens": 217,
+      "completion_tokens": 174,
+      "total_tokens": 391
+    }
+  },
+  {
+    "question": "Mia is saving for a bike that costs $180. She saves $12 each week for 7 weeks, then her aunt gives her $35. How much more money does Mia need?",
+    "gold_answer": "61",
+    "setting": "single",
+    "setting_name": "Single Agent",
+    "solver_a_output": "Mia saves $12 per week for 7 weeks, so she saves $12 × 7 = $84. Her aunt gives her $35, so total money is $84 + $35 = $119. The bike costs $180, so she needs $180 - $119 = $61 more.\n\nFinal Answer: 61",
+    "solver_b_output": "",
+    "verifier_output": {},
+    "final_prediction": "61",
+    "correct": true,
+    "token_usage": {
+      "prompt_tokens": 245,
+      "completion_tokens": 182,
+      "total_tokens": 427
+    }
+  },
+  {
+    "question": "A movie theater has 18 rows with 22 seats each. For a showing, 315 tickets were sold. How many seats were not sold?",
+    "gold_answer": "81",
+    "setting": "single",
+    "setting_name": "Single Agent",
+    "solver_a_output": "Total seats: 18 rows × 22 seats = 396 seats.\nTickets sold: 315.\nSeats not sold: 396 - 315 = 81.\n\nFinal Answer: 81",
+    "solver_b_output": "",
+    "verifier_output": {},
+    "final_prediction": "81",
+    "correct": true,
+    "token_usage": {
+      "prompt_tokens": 200,
+      "completion_tokens": 166,
+      "total_tokens": 366
+    }
+  },
+  {
+    "question": "Sam worked 6 hours a day for 5 days and earned $14 per hour. He spent $96 on groceries and saved the rest. How much did he save?",
+    "gold_answer": "324",
+    "setting": "single",
+    "setting_name": "Single Agent",
+    "solver_a_output": "Sam worked 6 hours per day for 5 days, totaling 30 hours. At $14 per hour, he earned 30 × 14 = $420. After spending $96 on groceries, he saved 420 - 96 = $324.\n\nFinal Answer: 324",
+    "solver_b_output": "",
+    "verifier_output": {},
+    "final_prediction": "324",
+    "correct": true,
+    "token_usage": {
+      "prompt_tokens": 226,
+      "completion_tokens": 197,
+      "total_tokens": 423
+    }
+  },
+  {
+    "question": "A school orders 7 boxes of pencils. Each box has 144 pencils. The school gives 28 pencils to each of 31 classrooms. How many pencils are left?",
+    "gold_answer": "140",
+    "setting": "single",
+    "setting_name": "Single Agent",
+    "solver_a_output": "Total pencils: 7 × 144 = 1008.\nPencils given: 28 × 31 = 868.\nRemaining: 1008 - 868 = 140.\n\nFinal Answer: 140",
+    "solver_b_output": "",
+    "verifier_output": {},
+    "final_prediction": "140",
+    "correct": true,
+    "token_usage": {
+      "prompt_tokens": 214,
+      "completion_tokens": 175,
+      "total_tokens": 389
+    }
+  },
+  {
+    "question": "Lena runs 2.5 miles each morning for 8 mornings. Then she runs a 10-mile race. How many miles does she run in total?",
+    "gold_answer": "30",
+    "setting": "single",
+    "setting_name": "Single Agent",
+    "solver_a_output": "Lena runs 2.5 miles each morning for 8 mornings, so that's 2.5 × 8 = 20 miles. Then she runs a 10-mile race, making the total 20 + 10 = 30 miles.\n\nFinal Answer: 30",
+    "solver_b_output": "",
+    "verifier_output": {},
+    "final_prediction": "30",
+    "correct": true,
+    "token_usage": {
+      "prompt_tokens": 222,
+      "completion_tokens": 188,
+      "total_tokens": 410
+    }
+  },
+  {
+    "question": "A restaurant made 96 sandwiches. It sold 3/4 of them before lunch ended, then sold 8 more after lunch. How many sandwiches were unsold?",
+    "gold_answer": "16",
+    "setting": "single",
+    "setting_name": "Single Agent",
+    "solver_a_output": "The restaurant starts with 96 sandwiches. It sells \\(\\frac{3}{4}\\) of them before lunch: \\(\\frac{3}{4} \\times 96 = 72\\). Then it sells 8 more after lunch, so total sold is \\(72 + 8 = 80\\). The number unsold is \\(96 - 80 = 16\\).\n\nFinal Answer: 16",
+    "solver_b_output": "",
+    "verifier_output": {},
+    "final_prediction": "16",
+    "correct": true,
+    "token_usage": {
+      "prompt_tokens": 245,
+      "completion_tokens": 290,
+      "total_tokens": 535
+    }
+  },
+  {
+    "question": "Priya has $250. She buys 3 shirts for $27 each and 2 pairs of pants for $46 each. How much money does she have left?",
+    "gold_answer": "77",
+    "setting": "single",
+    "setting_name": "Single Agent",
+    "solver_a_output": "Priya starts with $250. She buys 3 shirts at $27 each: 3 × 27 = $81. She buys 2 pairs of pants at $46 each: 2 × 46 = $92. Total spent: 81 + 92 = $173. Money left: 250 - 173 = $77.\n\nFinal Answer: 77",
+    "solver_b_output": "",
+    "verifier_output": {},
+    "final_prediction": "77",
+    "correct": true,
+    "token_usage": {
+      "prompt_tokens": 243,
+      "completion_tokens": 231,
+      "total_tokens": 474
+    }
+  },
+  {
+    "question": "A water tank holds 900 liters. It is 2/3 full. A pump adds 45 liters per minute for 4 minutes. How many liters are in the tank now?",
+    "gold_answer": "780",
+    "setting": "single",
+    "setting_name": "Single Agent",
+    "solver_a_output": "The tank initially contains 2/3 of 900 liters, which is 600 liters. The pump adds 45 liters per minute for 4 minutes, adding 180 liters. The total is 600 + 180 = 780 liters.\n\nFinal Answer: 780",
+    "solver_b_output": "",
+    "verifier_output": {},
+    "final_prediction": "780",
+    "correct": true,
+    "token_usage": {
+      "prompt_tokens": 230,
+      "completion_tokens": 259,
+      "total_tokens": 489
+    }
+  },
+  {
+    "question": "There are 64 students going on a trip. Each van holds 9 students. If the school wants every student in a van, how many vans are needed?",
+    "gold_answer": "8",
+    "setting": "single",
+    "setting_name": "Single Agent",
+    "solver_a_output": "We have 64 students and each van holds 9 students. To find the number of vans needed, we divide 64 by 9. 9 × 7 = 63, so 7 vans hold 63 students, leaving 1 student. That student also needs a van, so we need one more van, totaling 8 vans.\n\nFinal Answer: 8",
+    "solver_b_output": "",
+    "verifier_output": {},
+    "final_prediction": "8",
+    "correct": true,
+    "token_usage": {
+      "prompt_tokens": 246,
+      "completion_tokens": 292,
+      "total_tokens": 538
+    }
+  },
+  {
+    "question": "A painter uses 2 gallons of paint for each small room and 5 gallons for each large room. She paints 6 small rooms and 4 large rooms, but returns 3 unused gallons. How many gallons did she actually use?",
+    "gold_answer": "32",
+    "setting": "single",
+    "setting_name": "Single Agent",
+    "solver_a_output": "The painter uses 2 gallons per small room and 5 gallons per large room. For 6 small rooms, she uses \\(6 \\times 2 = 12\\) gallons. For 4 large rooms, she uses \\(4 \\times 5 = 20\\) gallons. The total paint used is \\(12 + 20 = 32\\) gallons. The fact that she returns 3 unused gallons means she originally purchased 35 gallons, but the amount actually used remains 32 gallons.\n\nFinal Answer: 32",
+    "solver_b_output": "",
+    "verifier_output": {},
+    "final_prediction": "32",
+    "correct": true,
+    "token_usage": {
+      "prompt_tokens": 300,
+      "completion_tokens": 482,
+      "total_tokens": 782
+    }
+  },
+  {
+    "question": "Owen bought 11 packs of trading cards with 8 cards per pack. He gave 15 cards to his brother and split the rest equally among 3 binders. How many cards went in each binder?",
+    "gold_answer": "24",
+    "setting": "single",
+    "setting_name": "Single Agent",
+    "solver_a_output": "Owen bought 11 packs of trading cards with 8 cards per pack. Total cards = 11 × 8 = 88. He gave 15 cards to his brother, so remaining cards = 88 - 15 = 73. He split the rest equally among 3 binders, so each binder gets 73 ÷ 3 = 73/3 cards.\n\nFinal Answer: 73/3",
+    "solver_b_output": "",
+    "verifier_output": {},
+    "final_prediction": "73/3",
+    "correct": false,
+    "token_usage": {
+      "prompt_tokens": 269,
+      "completion_tokens": 6929,
+      "total_tokens": 7198
+    }
+  },
+  {
+    "question": "A concert ticket costs $35 plus a $4 service fee. A family buys 6 tickets and pays $30 for parking. What is the total cost?",
+    "gold_answer": "264",
+    "setting": "single",
+    "setting_name": "Single Agent",
+    "solver_a_output": "Each ticket costs $35 + $4 = $39.  \nSix tickets cost 6 × $39 = $234.  \nAdding parking: $234 + $30 = $264.\n\nFinal Answer: 264",
+    "solver_b_output": "",
+    "verifier_output": {},
+    "final_prediction": "264",
+    "correct": true,
+    "token_usage": {
+      "prompt_tokens": 206,
+      "completion_tokens": 193,
+      "total_tokens": 399
+    }
+  },
+  {
+    "question": "A library has 520 books. It lends out 40% of them, then buys 75 new books. How many books are in the library now?",
+    "gold_answer": "387",
+    "setting": "single",
+    "setting_name": "Single Agent",
+    "solver_a_output": "The library starts with 520 books. It lends out 40%, which is 0.40 × 520 = 208 books. After lending, 520 - 208 = 312 books remain. Then it buys 75 new books, so the total becomes 312 + 75 = 387 books.\n\nFinal Answer: 387",
+    "solver_b_output": "",
+    "verifier_output": {},
+    "final_prediction": "387",
+    "correct": true,
+    "token_usage": {
+      "prompt_tokens": 232,
+      "completion_tokens": 280,
+      "total_tokens": 512
+    }
+  },
+  {
+    "question": "A bakery sells muffins in boxes of 6 and cookies in boxes of 8. On Monday it sold 14 boxes of muffins and 9 boxes of cookies. If 17 baked goods were returned because they were stale, how many baked goods were successfully sold?",
+    "gold_answer": "139",
+    "setting": "multi",
+    "setting_name": "Multi-Agent",
+    "solver_a_output": "The bakery sold 14 boxes of muffins, each containing 6 muffins, for a total of 14 × 6 = 84 muffins. It also sold 9 boxes of cookies, each containing 8 cookies, for a total of 9 × 8 = 72 cookies. The total number of baked goods sold is 84 + 72 = 156. With 17 returned, the number successfully sold is 156 - 17 = 139.\n\nFinal Answer: 139",
+    "solver_b_output": "Total muffins sold: 14 boxes × 6 per box = 84.\nTotal cookies sold: 9 boxes × 8 per box = 72.\nTotal baked goods sold: 84 + 72 = 156.\nReturned: 17.\nSuccessfully sold: 156 - 17 = 139.\n\nFinal Answer: 139",
+    "verifier_output": {},
+    "final_prediction": "139",
+    "correct": true,
+    "token_usage": {
+      "prompt_tokens": 487,
+      "completion_tokens": 522,
+      "total_tokens": 1009
+    }
+  },
+  {
+    "question": "Jada has 3 times as many stickers as Leo. Leo has 18 fewer stickers than Mina. Mina has 42 stickers. If Jada gives away 25 stickers, how many stickers does Jada have left?",
+    "gold_answer": "47",
+    "setting": "multi",
+    "setting_name": "Multi-Agent",
+    "solver_a_output": "Mina has 42 stickers. Leo has 18 fewer than Mina, so Leo has 42 - 18 = 24 stickers. Jada has 3 times as many as Leo, so Jada has 3 * 24 = 72 stickers. After giving away 25, Jada has 72 - 25 = 47 stickers left.\n\nFinal Answer: 47",
+    "solver_b_output": "Jada starts with 72 stickers and gives away 25, leaving her with 47.\n\nFinal Answer: 47",
+    "verifier_output": {},
+    "final_prediction": "47",
+    "correct": true,
+    "token_usage": {
+      "prompt_tokens": 396,
+      "completion_tokens": 445,
+      "total_tokens": 841
+    }
+  },
+  {
+    "question": "A train has 12 cars. Each car has 8 rows, and each row has 4 seats. On a trip, 73 seats are empty. How many passengers are on the train?",
+    "gold_answer": "311",
+    "setting": "multi",
+    "setting_name": "Multi-Agent",
+    "solver_a_output": "The total number of seats is 12 cars × 8 rows × 4 seats = 384 seats. With 73 empty seats, the number of passengers is 384 - 73 = 311.\n\nFinal Answer: 311",
+    "solver_b_output": "The total number of seats is calculated by multiplying the number of cars, rows per car, and seats per row: 12 cars × 8 rows × 4 seats = 384 seats. Subtracting the 73 empty seats gives 384 - 73 = 311 passengers.\n\nFinal Answer: 311",
+    "verifier_output": {},
+    "final_prediction": "311",
+    "correct": true,
+    "token_usage": {
+      "prompt_tokens": 388,
+      "completion_tokens": 399,
+      "total_tokens": 787
+    }
+  },
+  {
+    "question": "Nora reads 15 pages on Monday, twice as many pages on Tuesday, and 9 fewer pages on Wednesday than on Tuesday. How many pages does she read in all three days?",
+    "gold_answer": "66",
+    "setting": "multi",
+    "setting_name": "Multi-Agent",
+    "solver_a_output": "Monday: 15 pages.  \nTuesday: twice as many as Monday = 2 × 15 = 30 pages.  \nWednesday: 9 fewer than Tuesday = 30 - 9 = 21 pages.  \nTotal: 15 + 30 + 21 = 66 pages.\n\nFinal Answer: 66",
+    "solver_b_output": "Nora reads 15 pages on Monday. On Tuesday, she reads twice as many, which is 2 × 15 = 30 pages. On Wednesday, she reads 9 fewer pages than Tuesday, so 30 - 9 = 21 pages. The total pages are 15 + 30 + 21 = 66.\n\nFinal Answer: 66",
+    "verifier_output": {},
+    "final_prediction": "66",
+    "correct": true,
+    "token_usage": {
+      "prompt_tokens": 412,
+      "completion_tokens": 398,
+      "total_tokens": 810
+    }
+  },
+  {
+    "question": "A store bought 45 notebooks for $2 each and sold them for $5 each. It also spent $18 on a sign. What was the store's profit after all notebooks were sold?",
+    "gold_answer": "117",
+    "setting": "multi",
+    "setting_name": "Multi-Agent",
+    "solver_a_output": "The store bought 45 notebooks at $2 each, costing 45 × $2 = $90. It sold them at $5 each, earning 45 × $5 = $225. It also spent $18 on a sign, adding to the total cost. Total cost = $90 + $18 = $108. Profit = Revenue - Total cost = $225 - $108 = $117.\n\nFinal Answer: 117",
+    "solver_b_output": "The store bought 45 notebooks for $2 each, costing 45 × 2 = $90. It sold them for $5 each, earning 45 × 5 = $225. Additionally, it spent $18 on a sign, bringing total costs to $90 + $18 = $108. Profit is total revenue minus total costs: $225 - $108 = $117.\n\nFinal Answer: 117",
+    "verifier_output": {},
+    "final_prediction": "117",
+    "correct": true,
+    "token_usage": {
+      "prompt_tokens": 447,
+      "completion_tokens": 448,
+      "total_tokens": 895
+    }
+  },
+  {
+    "question": "Carlos has 5 bags of marbles with 16 marbles in each bag. He loses 23 marbles and then buys 4 more bags with 12 marbles in each. How many marbles does he have now?",
+    "gold_answer": "105",
+    "setting": "multi",
+    "setting_name": "Multi-Agent",
+    "solver_a_output": "Carlos starts with 5 bags × 16 marbles = 80 marbles.\nHe loses 23 marbles: 80 - 23 = 57 marbles remaining.\nHe buys 4 more bags × 12 marbles = 48 marbles.\nTotal marbles: 57 + 48 = 105.\n\nFinal Answer: 105",
+    "solver_b_output": "Carlos initially has 5 bags with 16 marbles each, totaling 5 × 16 = 80 marbles. After losing 23, he has 80 - 23 = 57 marbles. He then buys 4 bags with 12 marbles each, adding 4 × 12 = 48 marbles. The final count is 57 + 48 = 105 marbles.\n\nFinal Answer: 105",
+    "verifier_output": {},
+    "final_prediction": "105",
+    "correct": true,
+    "token_usage": {
+      "prompt_tokens": 436,
+      "completion_tokens": 362,
+      "total_tokens": 798
+    }
+  },
+  {
+    "question": "A farmer packs eggs into cartons of 12. She collects 268 eggs, but 16 crack before packing. How many full cartons can she fill?",
+    "gold_answer": "21",
+    "setting": "multi",
+    "setting_name": "Multi-Agent",
+    "solver_a_output": "The farmer collects 268 eggs, but 16 crack, leaving 268 - 16 = 252 good eggs. Each carton holds 12 eggs. Dividing 252 by 12 gives exactly 21, so she can fill 21 full cartons.\n\nFinal Answer: 21",
+    "solver_b_output": "The farmer starts with 268 eggs, but 16 crack, leaving 268 - 16 = 252 eggs. Each carton holds 12 eggs, so the number of full cartons is 252 ÷ 12 = 21.\n\nFinal Answer: 21",
+    "verifier_output": {},
+    "final_prediction": "21",
+    "correct": true,
+    "token_usage": {
+      "prompt_tokens": 370,
+      "completion_tokens": 356,
+      "total_tokens": 726
+    }
+  },
+  {
+    "question": "Mia is saving for a bike that costs $180. She saves $12 each week for 7 weeks, then her aunt gives her $35. How much more money does Mia need?",
+    "gold_answer": "61",
+    "setting": "multi",
+    "setting_name": "Multi-Agent",
+    "solver_a_output": "Mia saves $12 per week for 7 weeks, so she saves 12 × 7 = $84. Her aunt gives her $35, so total money is 84 + 35 = $119. The bike costs $180, so she needs 180 - 119 = $61 more.\n\nFinal Answer: 61",
+    "solver_b_output": "Mia saves $12 each week for 7 weeks, which totals $12 * 7 = $84. Her aunt adds $35, so she has $84 + $35 = $119. The bike costs $180, so she needs $180 - $119 = $61 more.\n\nFinal Answer: 61",
+    "verifier_output": {},
+    "final_prediction": "61",
+    "correct": true,
+    "token_usage": {
+      "prompt_tokens": 409,
+      "completion_tokens": 360,
+      "total_tokens": 769
+    }
+  },
+  {
+    "question": "A movie theater has 18 rows with 22 seats each. For a showing, 315 tickets were sold. How many seats were not sold?",
+    "gold_answer": "81",
+    "setting": "multi",
+    "setting_name": "Multi-Agent",
+    "solver_a_output": "The total number of seats is 18 rows × 22 seats per row = 396 seats. With 315 tickets sold, the number of seats not sold is 396 - 315 = 81.\n\nFinal Answer: 81",
+    "solver_b_output": "Total seats: 18 rows × 22 seats = 396 seats.  \nTickets sold: 315.  \nSeats not sold: 396 − 315 = 81.\n\nFinal Answer: 81",
+    "verifier_output": {},
+    "final_prediction": "81",
+    "correct": true,
+    "token_usage": {
+      "prompt_tokens": 339,
+      "completion_tokens": 327,
+      "total_tokens": 666
+    }
+  },
+  {
+    "question": "Sam worked 6 hours a day for 5 days and earned $14 per hour. He spent $96 on groceries and saved the rest. How much did he save?",
+    "gold_answer": "324",
+    "setting": "multi",
+    "setting_name": "Multi-Agent",
+    "solver_a_output": "Sam worked 6 hours per day for 5 days, so total hours = 6 × 5 = 30 hours. At $14 per hour, total earnings = 30 × 14 = $420. He spent $96 on groceries, so savings = 420 - 96 = $324.\n\nFinal Answer: 324",
+    "solver_b_output": "Sam worked a total of 6 hours per day for 5 days, so his total hours worked is 6 × 5 = 30 hours.  \nAt $14 per hour, his total earnings are 30 × 14 = $420.  \nAfter spending $96 on groceries, his savings are $420 − $96 = $324.  \nUnit check: hours × dollars/hour = dollars; dollars − dollars = dollars.  \nFinal Answer: 324",
+    "verifier_output": {},
+    "final_prediction": "324",
+    "correct": true,
+    "token_usage": {
+      "prompt_tokens": 426,
+      "completion_tokens": 509,
+      "total_tokens": 935
+    }
+  },
+  {
+    "question": "A school orders 7 boxes of pencils. Each box has 144 pencils. The school gives 28 pencils to each of 31 classrooms. How many pencils are left?",
+    "gold_answer": "140",
+    "setting": "multi",
+    "setting_name": "Multi-Agent",
+    "solver_a_output": "Total pencils: 7 × 144 = 1008.\nPencils given: 31 × 28 = 868.\nRemaining: 1008 - 868 = 140.\n\nFinal Answer: 140",
+    "solver_b_output": "The school has 7 boxes × 144 pencils per box = 1008 pencils total. They give 28 pencils to each of 31 classrooms, so 28 × 31 = 868 pencils are given away. The number of pencils left is 1008 - 868 = 140.\n\nFinal Answer: 140",
+    "verifier_output": {},
+    "final_prediction": "140",
+    "correct": true,
+    "token_usage": {
+      "prompt_tokens": 375,
+      "completion_tokens": 466,
+      "total_tokens": 841
+    }
+  },
+  {
+    "question": "Lena runs 2.5 miles each morning for 8 mornings. Then she runs a 10-mile race. How many miles does she run in total?",
+    "gold_answer": "30",
+    "setting": "multi",
+    "setting_name": "Multi-Agent",
+    "solver_a_output": "Lena runs 2.5 miles each morning for 8 mornings, totaling 2.5 * 8 = 20 miles. She then runs a 10-mile race, so the total is 20 + 10 = 30 miles.\n\nFinal Answer: 30",
+    "solver_b_output": "Lena runs 2.5 miles each morning for 8 mornings, totaling 2.5 × 8 = 20 miles. Adding the 10-mile race gives 20 + 10 = 30 miles.\n\nFinal Answer: 30",
+    "verifier_output": {},
+    "final_prediction": "30",
+    "correct": true,
+    "token_usage": {
+      "prompt_tokens": 364,
+      "completion_tokens": 331,
+      "total_tokens": 695
+    }
+  },
+  {
+    "question": "A restaurant made 96 sandwiches. It sold 3/4 of them before lunch ended, then sold 8 more after lunch. How many sandwiches were unsold?",
+    "gold_answer": "16",
+    "setting": "multi",
+    "setting_name": "Multi-Agent",
+    "solver_a_output": "The restaurant made 96 sandwiches. Sold before lunch: 3/4 of 96 = 72. Sold after lunch: 8. Total sold: 72 + 8 = 80. Unsold: 96 - 80 = 16.\n\nFinal Answer: 16",
+    "solver_b_output": "The restaurant started with 96 sandwiches. It sold 3/4 of them before lunch, which is 72 sandwiches (since 96 × 3/4 = 72). Then it sold 8 more after lunch, making total sales 80 sandwiches. The remaining unsold count is 96 − 80 = 16.\n\nFinal Answer: 16",
+    "verifier_output": {},
+    "final_prediction": "16",
+    "correct": true,
+    "token_usage": {
+      "prompt_tokens": 392,
+      "completion_tokens": 420,
+      "total_tokens": 812
+    }
+  },
+  {
+    "question": "Priya has $250. She buys 3 shirts for $27 each and 2 pairs of pants for $46 each. How much money does she have left?",
+    "gold_answer": "77",
+    "setting": "multi",
+    "setting_name": "Multi-Agent",
+    "solver_a_output": "Priya spends 3 × $27 = $81 on shirts and 2 × $46 = $92 on pants. Total spent is $81 + $92 = $173. She started with $250, so she has $250 - $173 = $77 left.\n\nFinal Answer: 77",
+    "solver_b_output": "The total cost of the shirts is 3 × $27 = $81. The total cost of the pants is 2 × $46 = $92. The combined cost is $81 + $92 = $173. Subtracting from the initial $250 gives $250 - $173 = $77.\n\nFinal Answer: 77",
+    "verifier_output": {},
+    "final_prediction": "77",
+    "correct": true,
+    "token_usage": {
+      "prompt_tokens": 389,
+      "completion_tokens": 366,
+      "total_tokens": 755
+    }
+  },
+  {
+    "question": "A water tank holds 900 liters. It is 2/3 full. A pump adds 45 liters per minute for 4 minutes. How many liters are in the tank now?",
+    "gold_answer": "780",
+    "setting": "multi",
+    "setting_name": "Multi-Agent",
+    "solver_a_output": "The tank initially holds 2/3 of 900 liters, which is 600 liters. The pump adds 45 liters per minute for 4 minutes, adding 180 liters. The total is 600 + 180 = 780 liters.\n\nFinal Answer: 780",
+    "solver_b_output": "The tank holds 900 liters and is initially 2/3 full, so it contains (2/3) × 900 = 600 liters. The pump adds 45 liters per minute for 4 minutes, adding 45 × 4 = 180 liters. The total is 600 + 180 = 780 liters.\n\nFinal Answer: 780",
+    "verifier_output": {},
+    "final_prediction": "780",
+    "correct": true,
+    "token_usage": {
+      "prompt_tokens": 401,
+      "completion_tokens": 452,
+      "total_tokens": 853
+    }
+  },
+  {
+    "question": "There are 64 students going on a trip. Each van holds 9 students. If the school wants every student in a van, how many vans are needed?",
+    "gold_answer": "8",
+    "setting": "multi",
+    "setting_name": "Multi-Agent",
+    "solver_a_output": "64 students, each van holds 9. 9 × 7 = 63, leaving 1 student. So 8 vans are needed.\n\nFinal Answer: 8",
+    "solver_b_output": "To transport 64 students with each van holding 9 students, we compute the number of vans as the smallest integer such that 9 * vans >= 64. Dividing 64 by 9 gives 7.111..., so 7 vans carry only 63 students. Thus, 8 vans are required.\n\nFinal Answer: 8",
+    "verifier_output": {},
+    "final_prediction": "8",
+    "correct": true,
+    "token_usage": {
+      "prompt_tokens": 369,
+      "completion_tokens": 324,
+      "total_tokens": 693
+    }
+  },
+  {
+    "question": "A painter uses 2 gallons of paint for each small room and 5 gallons for each large room. She paints 6 small rooms and 4 large rooms, but returns 3 unused gallons. How many gallons did she actually use?",
+    "gold_answer": "32",
+    "setting": "multi",
+    "setting_name": "Multi-Agent",
+    "solver_a_output": "The painter uses 2 gallons per small room and 5 gallons per large room. For 6 small rooms: 6 × 2 = 12 gallons. For 4 large rooms: 4 × 5 = 20 gallons. Total paint used for rooms: 12 + 20 = 32 gallons. She returns 3 unused gallons, meaning she used exactly the amount needed for the rooms, which is 32 gallons.\n\nFinal Answer: 32",
+    "solver_b_output": "The painter uses 2 gallons per small room and 5 gallons per large room. She paints 6 small rooms (6 × 2 = 12 gallons) and 4 large rooms (4 × 5 = 20 gallons), for a total of 12 + 20 = 32 gallons needed. She returns 3 unused gallons, meaning she had purchased more than needed, but the actual amount used is the paint applied to the rooms, which is 32 gallons.\n\nFinal Answer: 32",
+    "verifier_output": {},
+    "final_prediction": "32",
+    "correct": true,
+    "token_usage": {
+      "prompt_tokens": 499,
+      "completion_tokens": 958,
+      "total_tokens": 1457
+    }
+  },
+  {
+    "question": "Owen bought 11 packs of trading cards with 8 cards per pack. He gave 15 cards to his brother and split the rest equally among 3 binders. How many cards went in each binder?",
+    "gold_answer": "24",
+    "setting": "multi",
+    "setting_name": "Multi-Agent",
+    "solver_a_output": "Owen bought 11 packs of 8 cards each, so total cards = 11 × 8 = 88. He gave 15 cards to his brother, leaving 88 - 15 = 73 cards. He split the remaining cards equally among 3 binders. Since 73 ÷ 3 = 24 with remainder 1, each binder gets 24 cards. The leftover card is not placed in a binder.\n\nFinal Answer: 24",
+    "solver_b_output": "Owen bought 11 packs with 8 cards each, so total cards = 11 × 8 = 88. After giving 15 cards to his brother, remaining cards = 88 − 15 = 73. Splitting 73 cards equally among 3 binders gives 73 ÷ 3 = 24 with remainder 1, so each binder gets 24 cards.\n\nFinal Answer: 24",
+    "verifier_output": {},
+    "final_prediction": "24",
+    "correct": true,
+    "token_usage": {
+      "prompt_tokens": 465,
+      "completion_tokens": 5593,
+      "total_tokens": 6058
+    }
+  },
+  {
+    "question": "A concert ticket costs $35 plus a $4 service fee. A family buys 6 tickets and pays $30 for parking. What is the total cost?",
+    "gold_answer": "264",
+    "setting": "multi",
+    "setting_name": "Multi-Agent",
+    "solver_a_output": "Each ticket costs $35 + $4 = $39. For 6 tickets, cost is 6 × $39 = $234. Adding parking ($30) gives $234 + $30 = $264.\n\nFinal Answer: 264",
+    "solver_b_output": "Each ticket costs $35 plus a $4 service fee, so $39 per ticket. Six tickets cost 6 × $39 = $234. Adding $30 for parking gives a total of $264.\n\nFinal Answer: 264",
+    "verifier_output": {},
+    "final_prediction": "264",
+    "correct": true,
+    "token_usage": {
+      "prompt_tokens": 350,
+      "completion_tokens": 280,
+      "total_tokens": 630
+    }
+  },
+  {
+    "question": "A library has 520 books. It lends out 40% of them, then buys 75 new books. How many books are in the library now?",
+    "gold_answer": "387",
+    "setting": "multi",
+    "setting_name": "Multi-Agent",
+    "solver_a_output": "The library starts with 520 books. It lends out 40%, which is 0.4 × 520 = 208 books. The remaining books are 520 - 208 = 312. Then it buys 75 new books, so the total becomes 312 + 75 = 387.\n\nFinal Answer: 387",
+    "solver_b_output": "The library starts with 520 books. Lending out 40% leaves 60%: 0.6 × 520 = 312 books. Adding 75 new books gives 312 + 75 = 387 books.\n\nFinal Answer: 387",
+    "verifier_output": {},
+    "final_prediction": "387",
+    "correct": true,
+    "token_usage": {
+      "prompt_tokens": 374,
+      "completion_tokens": 452,
+      "total_tokens": 826
+    }
+  },
+  {
+    "question": "A bakery sells muffins in boxes of 6 and cookies in boxes of 8. On Monday it sold 14 boxes of muffins and 9 boxes of cookies. If 17 baked goods were returned because they were stale, how many baked goods were successfully sold?",
+    "gold_answer": "139",
+    "setting": "multi_verifier",
+    "setting_name": "Multi-Agent + Verifier",
+    "solver_a_output": "The bakery sold 14 boxes of muffins, each containing 6 muffins, so 14 × 6 = 84 muffins. It sold 9 boxes of cookies, each containing 8 cookies, so 9 × 8 = 72 cookies. Total baked goods sold initially: 84 + 72 = 156. With 17 returned, the number successfully sold is 156 - 17 = 139.\n\nFinal Answer: 139",
+    "solver_b_output": "The bakery sold 14 boxes of muffins at 6 per box, giving 84 muffins, and 9 boxes of cookies at 8 per box, giving 72 cookies. The total sold is 84 + 72 = 156 baked goods. After 17 were returned, the number successfully sold is 156 - 17 = 139.\n\nFinal Answer: 139",
+    "verifier_output": {
+      "verified_answer": "139",
+      "chosen_solver": "A",
+      "critique": "Both solvers correctly compute total muffins (14×6=84), cookies (9×8=72), sum to 156, subtract 17 returns to get 139 successfully sold. The reasoning is accurate and identical. Solver A is chosen arbitrarily as both are correct."
+    },
+    "final_prediction": "139",
+    "correct": true,
+    "token_usage": {
+      "prompt_tokens": 898,
+      "completion_tokens": 903,
+      "total_tokens": 1801
+    }
+  },
+  {
+    "question": "Jada has 3 times as many stickers as Leo. Leo has 18 fewer stickers than Mina. Mina has 42 stickers. If Jada gives away 25 stickers, how many stickers does Jada have left?",
+    "gold_answer": "47",
+    "setting": "multi_verifier",
+    "setting_name": "Multi-Agent + Verifier",
+    "solver_a_output": "Mina has 42 stickers. Leo has 18 fewer than Mina, so Leo has 42 - 18 = 24 stickers. Jada has 3 times as many as Leo, so Jada has 3 * 24 = 72 stickers. After giving away 25, Jada has 72 - 25 = 47 stickers left.\n\nFinal Answer: 47",
+    "solver_b_output": "Mina has 42 stickers. Leo has 18 fewer than Mina, so Leo has 42 - 18 = 24 stickers. Jada has 3 times as many as Leo, so Jada has 3 × 24 = 72 stickers. After giving away 25 stickers, Jada has 72 - 25 = 47 stickers left.\n\nFinal Answer: 47",
+    "verifier_output": {
+      "verified_answer": "47",
+      "chosen_solver": "A",
+      "critique": "Both Solver A and Solver B provide the same correct reasoning and final answer. The calculations are accurate: Mina has 42 stickers, Leo has 42 - 18 = 24 stickers, Jada has 3 × 24 = 72 stickers, and after giving away 25, Jada has 72 - 25 = 47 stickers left. Since both outputs are identical and correct, either is acceptable."
+    },
+    "final_prediction": "47",
+    "correct": true,
+    "token_usage": {
+      "prompt_tokens": 878,
+      "completion_tokens": 729,
+      "total_tokens": 1607
+    }
+  },
+  {
+    "question": "A train has 12 cars. Each car has 8 rows, and each row has 4 seats. On a trip, 73 seats are empty. How many passengers are on the train?",
+    "gold_answer": "311",
+    "setting": "multi_verifier",
+    "setting_name": "Multi-Agent + Verifier",
+    "solver_a_output": "The total number of seats is 12 cars × 8 rows per car × 4 seats per row = 384 seats. With 73 empty seats, the number of passengers is 384 - 73 = 311.\n\nFinal Answer: 311",
+    "solver_b_output": "Let \\(c = 12\\) be the number of cars, \\(r = 8\\) the rows per car, and \\(s = 4\\) the seats per row. Total seats \\(T = c \\times r \\times s = 12 \\times 8 \\times 4 = 384\\). With \\(E = 73\\) empty seats, the number of passengers \\(P = T - E = 384 - 73 = 311\\).\n\nVerification: \\(311 + 73 = 384\\), matching total seats. Units: seats and passengers are consistent.\n\nFinal Answer: 311",
+    "verifier_output": {
+      "verified_answer": "311",
+      "chosen_solver": "A",
+      "critique": "Both solvers correctly compute total seats as 384 and subtract empty seats to get 311. The arithmetic is correct. Solver A is straightforward; Solver B includes verification but is essentially the same. Both are correct."
+    },
+    "final_prediction": "311",
+    "correct": true,
+    "token_usage": {
+      "prompt_tokens": 849,
+      "completion_tokens": 1017,
+      "total_tokens": 1866
+    }
+  },
+  {
+    "question": "Nora reads 15 pages on Monday, twice as many pages on Tuesday, and 9 fewer pages on Wednesday than on Tuesday. How many pages does she read in all three days?",
+    "gold_answer": "66",
+    "setting": "multi_verifier",
+    "setting_name": "Multi-Agent + Verifier",
+    "solver_a_output": "Monday: 15 pages.  \nTuesday: twice Monday = 2 × 15 = 30 pages.  \nWednesday: 9 fewer than Tuesday = 30 - 9 = 21 pages.  \nTotal: 15 + 30 + 21 = 66 pages.\n\nFinal Answer: 66",
+    "solver_b_output": "Nora reads 15 pages on Monday. On Tuesday, she reads twice as many, which is 2 × 15 = 30 pages. On Wednesday, she reads 9 fewer than Tuesday, so 30 − 9 = 21 pages. The total is 15 + 30 + 21 = 66 pages.\n\nFinal Answer: 66",
+    "verifier_output": {
+      "verified_answer": "66",
+      "chosen_solver": "A",
+      "critique": "Both solvers provide the same correct reasoning and answer. Solver A and B both compute Monday=15, Tuesday=30, Wednesday=21, total=66. There is no error in either. I arbitrarily choose Solver A."
+    },
+    "final_prediction": "66",
+    "correct": true,
+    "token_usage": {
+      "prompt_tokens": 768,
+      "completion_tokens": 617,
+      "total_tokens": 1385
+    }
+  },
+  {
+    "question": "A store bought 45 notebooks for $2 each and sold them for $5 each. It also spent $18 on a sign. What was the store's profit after all notebooks were sold?",
+    "gold_answer": "117",
+    "setting": "multi_verifier",
+    "setting_name": "Multi-Agent + Verifier",
+    "solver_a_output": "The store bought 45 notebooks at $2 each, costing 45 × $2 = $90. It also spent $18 on a sign, so total cost = $90 + $18 = $108. The notebooks were sold at $5 each, so revenue = 45 × $5 = $225. Profit = revenue - cost = $225 - $108 = $117.\n\nFinal Answer: 117",
+    "solver_b_output": "The store's profit is calculated by subtracting total costs from total revenue. The notebooks cost 45 × $2 = $90, and the sign cost $18, so total cost is $108. Revenue from selling all notebooks is 45 × $5 = $225. Profit is $225 - $108 = $117.\n\nFinal Answer: 117",
+    "verifier_output": {
+      "verified_answer": "117",
+      "chosen_solver": "A",
+      "critique": "Both solvers correctly calculate the profit: total cost $90 (notebooks) + $18 (sign) = $108, total revenue $225, profit $117. They are both accurate and clear. Solver A is arbitrarily chosen as the best supported since both are identical in correctness."
+    },
+    "final_prediction": "117",
+    "correct": true,
+    "token_usage": {
+      "prompt_tokens": 824,
+      "completion_tokens": 794,
+      "total_tokens": 1618
+    }
+  },
+  {
+    "question": "Carlos has 5 bags of marbles with 16 marbles in each bag. He loses 23 marbles and then buys 4 more bags with 12 marbles in each. How many marbles does he have now?",
+    "gold_answer": "105",
+    "setting": "multi_verifier",
+    "setting_name": "Multi-Agent + Verifier",
+    "solver_a_output": "Carlos starts with 5 bags of 16 marbles each: 5 × 16 = 80 marbles. He loses 23 marbles: 80 − 23 = 57 marbles. Then he buys 4 bags of 12 marbles each: 4 × 12 = 48 marbles. Adding these: 57 + 48 = 105 marbles.\n\nFinal Answer: 105",
+    "solver_b_output": "Carlos starts with 5 bags × 16 marbles each = 80 marbles. After losing 23, he has 80 - 23 = 57 marbles. He then buys 4 bags × 12 marbles each = 48 marbles, resulting in 57 + 48 = 105 marbles.\n\nFinal Answer: 105",
+    "verifier_output": {
+      "verified_answer": "105",
+      "chosen_solver": "A",
+      "critique": "Both solvers correctly calculate the initial marbles (5 × 16 = 80), subtract the loss (80 - 23 = 57), add the new marbles (4 × 12 = 48), and sum to 105. The arithmetic is accurate and the reasoning is identical. Therefore, either answer is correct; solver A was chosen arbitrarily."
+    },
+    "final_prediction": "105",
+    "correct": true,
+    "token_usage": {
+      "prompt_tokens": 833,
+      "completion_tokens": 803,
+      "total_tokens": 1636
+    }
+  },
+  {
+    "question": "A farmer packs eggs into cartons of 12. She collects 268 eggs, but 16 crack before packing. How many full cartons can she fill?",
+    "gold_answer": "21",
+    "setting": "multi_verifier",
+    "setting_name": "Multi-Agent + Verifier",
+    "solver_a_output": "She collects 268 eggs, but 16 crack, so the number of good eggs is 268 - 16 = 252. Each carton holds 12 eggs. To find the number of full cartons, divide 252 by 12: 252 ÷ 12 = 21. So she can fill 21 full cartons.\n\nFinal Answer: 21",
+    "solver_b_output": "The farmer starts with 268 eggs. After 16 crack, the number of good eggs is 268 - 16 = 252. Each carton holds 12 eggs, so dividing 252 by 12 gives 21 full cartons (since 12 × 21 = 252). The units are consistent: eggs ÷ (eggs per carton) = cartons.\n\nFinal Answer: 21",
+    "verifier_output": {
+      "verified_answer": "21",
+      "chosen_solver": "A",
+      "critique": "Both solvers correctly calculate the number of good eggs (252) and divide by 12 to get 21 full cartons. The reasoning and arithmetic are accurate."
+    },
+    "final_prediction": "21",
+    "correct": true,
+    "token_usage": {
+      "prompt_tokens": 779,
+      "completion_tokens": 855,
+      "total_tokens": 1634
+    }
+  },
+  {
+    "question": "Mia is saving for a bike that costs $180. She saves $12 each week for 7 weeks, then her aunt gives her $35. How much more money does Mia need?",
+    "gold_answer": "61",
+    "setting": "multi_verifier",
+    "setting_name": "Multi-Agent + Verifier",
+    "solver_a_output": "Mia saves $12 per week for 7 weeks: $12 × 7 = $84.  \nAdding the $35 from her aunt: $84 + $35 = $119.  \nThe bike costs $180, so she needs: $180 - $119 = $61.  \n\nFinal Answer: 61",
+    "solver_b_output": "Mia saves $12 per week for 7 weeks, which totals 12 × 7 = $84. Her aunt gives her $35, so total money is 84 + 35 = $119. The bike costs $180, so she needs 180 - 119 = $61 more.\n\nFinal Answer: 61",
+    "verifier_output": {
+      "verified_answer": "61",
+      "chosen_solver": "A",
+      "critique": "Both solvers use identical correct reasoning: compute total saved ($12 × 7 = $84), add aunt's gift ($35) to get $119, then subtract from bike cost ($180) to find $61 needed. Both answers are correct and clearly presented. Solver A is chosen arbitrarily."
+    },
+    "final_prediction": "61",
+    "correct": true,
+    "token_usage": {
+      "prompt_tokens": 779,
+      "completion_tokens": 765,
+      "total_tokens": 1544
+    }
+  },
+  {
+    "question": "A movie theater has 18 rows with 22 seats each. For a showing, 315 tickets were sold. How many seats were not sold?",
+    "gold_answer": "81",
+    "setting": "multi_verifier",
+    "setting_name": "Multi-Agent + Verifier",
+    "solver_a_output": "Total seats: 18 × 22 = 396  \nSeats not sold: 396 - 315 = 81  \n\nFinal Answer: 81",
+    "solver_b_output": "The theater has 18 rows, each with 22 seats. Let \\( T \\) be the total number of seats:  \n\\[\nT = 18 \\times 22 = 396 \\text{ seats}.\n\\]  \nLet \\( S \\) be the number of tickets sold: \\( S = 315 \\).  \nThe number of unsold seats is \\( T - S \\):  \n\\[\n396 - 315 = 81.\n\\]  \nUnits: seats. Thus, 81 seats were not sold.\n\nFinal Answer: 81",
+    "verifier_output": {
+      "verified_answer": "81",
+      "chosen_solver": "A",
+      "critique": "Both solvers compute total seats as 18 × 22 = 396 and subtract sold tickets (315) to get 81 unsold seats. Arithmetic is correct and the reasoning is identical. Solver A is chosen arbitrarily."
+    },
+    "final_prediction": "81",
+    "correct": true,
+    "token_usage": {
+      "prompt_tokens": 742,
+      "completion_tokens": 677,
+      "total_tokens": 1419
+    }
+  },
+  {
+    "question": "Sam worked 6 hours a day for 5 days and earned $14 per hour. He spent $96 on groceries and saved the rest. How much did he save?",
+    "gold_answer": "324",
+    "setting": "multi_verifier",
+    "setting_name": "Multi-Agent + Verifier",
+    "solver_a_output": "Sam worked 6 hours a day for 5 days, so total hours = 6 * 5 = 30 hours. Earnings = 30 * $14 = $420. After spending $96 on groceries, savings = $420 - $96 = $324.\n\nFinal Answer: 324",
+    "solver_b_output": "Sam worked 6 hours per day for 5 days, so total hours = 6 × 5 = 30 hours. At $14 per hour, total earnings = 30 × $14 = $420. After spending $96 on groceries, savings = $420 - $96 = $324.\n\nFinal Answer: 324",
+    "verifier_output": {
+      "verified_answer": "324",
+      "chosen_solver": "A",
+      "critique": "Both solvers performed the same correct calculation: total hours = 6 * 5 = 30, total earnings = 30 * $14 = $420, savings = $420 - $96 = $324. The arithmetic is accurate and the reasoning is clear. Since both outputs are identical and correct, either could be chosen; Solver A is arbitrarily selected."
+    },
+    "final_prediction": "324",
+    "correct": true,
+    "token_usage": {
+      "prompt_tokens": 766,
+      "completion_tokens": 661,
+      "total_tokens": 1427
+    }
+  },
+  {
+    "question": "A school orders 7 boxes of pencils. Each box has 144 pencils. The school gives 28 pencils to each of 31 classrooms. How many pencils are left?",
+    "gold_answer": "140",
+    "setting": "multi_verifier",
+    "setting_name": "Multi-Agent + Verifier",
+    "solver_a_output": "Total pencils: 7 boxes × 144 pencils per box = 1008 pencils.\nPencils given: 28 pencils × 31 classrooms = 868 pencils.\nRemaining: 1008 - 868 = 140 pencils.\n\nFinal Answer: 140",
+    "solver_b_output": "The school starts with 7 boxes of 144 pencils each, totaling 1008 pencils. They distribute 28 pencils to each of 31 classrooms, which is 868 pencils. The remaining pencils are 1008 minus 868, which equals 140.\n\nFinal Answer: 140",
+    "verifier_output": {
+      "verified_answer": "140",
+      "chosen_solver": "A",
+      "critique": "Both solvers correctly calculated the total pencils as 7 × 144 = 1008, pencils given as 28 × 31 = 868, and remaining as 1008 - 868 = 140. The arithmetic is accurate and the reasoning is sound. Solver A is chosen arbitrarily as both are equally valid."
+    },
+    "final_prediction": "140",
+    "correct": true,
+    "token_usage": {
+      "prompt_tokens": 728,
+      "completion_tokens": 875,
+      "total_tokens": 1603
+    }
+  },
+  {
+    "question": "Lena runs 2.5 miles each morning for 8 mornings. Then she runs a 10-mile race. How many miles does she run in total?",
+    "gold_answer": "30",
+    "setting": "multi_verifier",
+    "setting_name": "Multi-Agent + Verifier",
+    "solver_a_output": "Lena runs 2.5 miles each morning for 8 mornings, which is 2.5 × 8 = 20 miles. Then she runs a 10-mile race, so total miles = 20 + 10 = 30.\n\nFinal Answer: 30",
+    "solver_b_output": "Lena runs 2.5 miles each morning for 8 mornings, which is 2.5 × 8 = 20 miles. She also runs a 10-mile race, so total miles = 20 + 10 = 30 miles.\n\nFinal Answer: 30",
+    "verifier_output": {
+      "verified_answer": "30",
+      "chosen_solver": "A",
+      "critique": "Both solvers correctly compute the total miles: 2.5 miles per morning for 8 mornings equals 20 miles, plus a 10-mile race gives 30 miles. The arithmetic is accurate and the reasoning is identical. Solver A is chosen arbitrarily as both are correct."
+    },
+    "final_prediction": "30",
+    "correct": true,
+    "token_usage": {
+      "prompt_tokens": 713,
+      "completion_tokens": 671,
+      "total_tokens": 1384
+    }
+  },
+  {
+    "question": "A restaurant made 96 sandwiches. It sold 3/4 of them before lunch ended, then sold 8 more after lunch. How many sandwiches were unsold?",
+    "gold_answer": "16",
+    "setting": "multi_verifier",
+    "setting_name": "Multi-Agent + Verifier",
+    "solver_a_output": "The restaurant initially made 96 sandwiches. It sold 3/4 of them before lunch, which is 3/4 × 96 = 72 sandwiches. After that, 96 - 72 = 24 sandwiches remained. Then it sold 8 more after lunch, leaving 24 - 8 = 16 sandwiches unsold.\n\nFinal Answer: 16",
+    "solver_b_output": "The restaurant made 96 sandwiches. It sold 3/4 of them before lunch, which is 72 sandwiches, leaving 24. After selling 8 more, 16 remain unsold.\n\nFinal Answer: 16",
+    "verifier_output": {
+      "verified_answer": "16",
+      "chosen_solver": "A",
+      "critique": "Both solvers correctly compute 3/4 of 96 as 72, subtract from 96 to get 24, then subtract 8 to get 16 unsold. The arithmetic is accurate and consistent. Solver A provides a clear step-by-step explanation, which is why it is chosen. Solver B is also correct but less detailed."
+    },
+    "final_prediction": "16",
+    "correct": true,
+    "token_usage": {
+      "prompt_tokens": 743,
+      "completion_tokens": 897,
+      "total_tokens": 1640
+    }
+  },
+  {
+    "question": "Priya has $250. She buys 3 shirts for $27 each and 2 pairs of pants for $46 each. How much money does she have left?",
+    "gold_answer": "77",
+    "setting": "multi_verifier",
+    "setting_name": "Multi-Agent + Verifier",
+    "solver_a_output": "Priya starts with $250. She buys 3 shirts at $27 each: 3 × 27 = $81. She buys 2 pairs of pants at $46 each: 2 × 46 = $92. Total spent: 81 + 92 = $173. Money left: 250 - 173 = $77.\n\nFinal Answer: 77",
+    "solver_b_output": "Priya starts with $250. She buys 3 shirts at $27 each, costing 3 × 27 = $81. She also buys 2 pairs of pants at $46 each, costing 2 × 46 = $92. Total spent is $81 + $92 = $173. Money left is $250 - $173 = $77.\n\nFinal Answer: 77",
+    "verifier_output": {
+      "verified_answer": 77,
+      "chosen_solver": "A",
+      "critique": "Both solvers A and B correctly calculate the total cost (3 shirts at $27 each = $81, 2 pants at $46 each = $92, total $173) and subtract from $250 to get $77. The methods are identical and the arithmetic is accurate. Solver A is chosen arbitrarily as both are correct."
+    },
+    "final_prediction": "77",
+    "correct": true,
+    "token_usage": {
+      "prompt_tokens": 812,
+      "completion_tokens": 673,
+      "total_tokens": 1485
+    }
+  },
+  {
+    "question": "A water tank holds 900 liters. It is 2/3 full. A pump adds 45 liters per minute for 4 minutes. How many liters are in the tank now?",
+    "gold_answer": "780",
+    "setting": "multi_verifier",
+    "setting_name": "Multi-Agent + Verifier",
+    "solver_a_output": "Initially, the tank is 2/3 full of 900 liters, so it contains (2/3) * 900 = 600 liters. The pump adds 45 liters per minute for 4 minutes, adding 45 * 4 = 180 liters. The total is 600 + 180 = 780 liters.\n\nFinal Answer: 780",
+    "solver_b_output": "The tank initially contains 2/3 of its capacity: 2/3 × 900 = 600 liters. The pump adds 45 liters per minute for 4 minutes, contributing 45 × 4 = 180 liters. The total is 600 + 180 = 780 liters, which is within the tank's capacity of 900 liters.\n\nFinal Answer: 780",
+    "verifier_output": {
+      "verified_answer": "780",
+      "chosen_solver": "A",
+      "critique": "Both solvers correctly compute 780 liters. They each start with 2/3 of 900 = 600 liters, then add 45 liters per minute for 4 minutes = 180 liters, resulting in 780 liters. Since both are correct and identical, solver A is chosen arbitrarily."
+    },
+    "final_prediction": "780",
+    "correct": true,
+    "token_usage": {
+      "prompt_tokens": 812,
+      "completion_tokens": 765,
+      "total_tokens": 1577
+    }
+  },
+  {
+    "question": "There are 64 students going on a trip. Each van holds 9 students. If the school wants every student in a van, how many vans are needed?",
+    "gold_answer": "8",
+    "setting": "multi_verifier",
+    "setting_name": "Multi-Agent + Verifier",
+    "solver_a_output": "64 students, each van holds 9. 64 ÷ 9 = 7 remainder 1, so 7 vans are not enough. Need an extra van for the remaining student. Thus, 8 vans are needed.\n\nFinal Answer: 8",
+    "solver_b_output": "We have 64 students and each van holds 9 students. To find the number of vans needed so that every student is in a van, we compute the total capacity required. Since 64 ÷ 9 = 7 remainder 1, 7 vans can hold only 63 students, leaving 1 student without a seat. Therefore, we need an additional van to accommodate that student, making it 8 vans total.\n\nFinal Answer: 8",
+    "verifier_output": {
+      "verified_answer": "8",
+      "chosen_solver": "A",
+      "critique": "Both solvers correctly compute 64 divided by 9 equals 7 remainder 1, so 8 vans are needed. The reasoning is identical and correct."
+    },
+    "final_prediction": "8",
+    "correct": true,
+    "token_usage": {
+      "prompt_tokens": 761,
+      "completion_tokens": 817,
+      "total_tokens": 1578
+    }
+  },
+  {
+    "question": "A painter uses 2 gallons of paint for each small room and 5 gallons for each large room. She paints 6 small rooms and 4 large rooms, but returns 3 unused gallons. How many gallons did she actually use?",
+    "gold_answer": "32",
+    "setting": "multi_verifier",
+    "setting_name": "Multi-Agent + Verifier",
+    "solver_a_output": "The painter uses 2 gallons per small room and 5 gallons per large room. For 6 small rooms, she uses 6 × 2 = 12 gallons. For 4 large rooms, she uses 4 × 5 = 20 gallons. The total gallons used is 12 + 20 = 32 gallons. The fact that she returns 3 unused gallons indicates she had purchased more, but the amount actually used is 32 gallons.\n\nFinal Answer: 32",
+    "solver_b_output": "The painter uses 2 gallons per small room and 5 gallons per large room. For 6 small rooms and 4 large rooms, the total paint required is:\n\n\\[\n6 \\times 2 = 12 \\text{ gallons (small rooms)}, \\quad 4 \\times 5 = 20 \\text{ gallons (large rooms)}\n\\]\n\nTotal used: \\(12 + 20 = 32\\) gallons. She returns 3 unused gallons, so she used exactly 32 gallons.\n\nFinal Answer: 32",
+    "verifier_output": {
+      "verified_answer": "32",
+      "chosen_solver": "A",
+      "critique": "Both solvers correctly compute the total paint required as 6*2 + 4*5 = 32 gallons. The fact that she returns 3 unused gallons indicates she initially had more, but the amount actually used remains 32. Both answers are correct and identical."
+    },
+    "final_prediction": "32",
+    "correct": true,
+    "token_usage": {
+      "prompt_tokens": 953,
+      "completion_tokens": 1233,
+      "total_tokens": 2186
+    }
+  },
+  {
+    "question": "Owen bought 11 packs of trading cards with 8 cards per pack. He gave 15 cards to his brother and split the rest equally among 3 binders. How many cards went in each binder?",
+    "gold_answer": "24",
+    "setting": "multi_verifier",
+    "setting_name": "Multi-Agent + Verifier",
+    "solver_a_output": "Owen bought 11 packs with 8 cards each, so total cards: 11 × 8 = 88. He gave 15 to his brother, leaving 88 - 15 = 73 cards. He split these equally among 3 binders: 73 ÷ 3 = 24 remainder 1, so each binder gets 24 cards.\n\nFinal Answer: 24",
+    "solver_b_output": "Total cards: 11 packs × 8 cards/pack = 88 cards.  \nCards given to brother: 15.  \nRemaining cards: 88 – 15 = 73.  \nSplit equally among 3 binders: 73 ÷ 3 = 24 remainder 1.  \nSo each binder gets 24 cards (the quotient), with 1 card left over.\n\nFinal Answer: 24",
+    "verifier_output": {
+      "verified_answer": "24",
+      "chosen_solver": "A",
+      "critique": "Both solvers correctly compute 11 packs × 8 cards = 88 total cards, subtract 15 given away to get 73 remaining, then divide by 3 to get 24 cards per binder with a remainder of 1. The answer 24 is correct. Solver A is chosen arbitrarily as both are identical and correct."
+    },
+    "final_prediction": "24",
+    "correct": true,
+    "token_usage": {
+      "prompt_tokens": 866,
+      "completion_tokens": 9682,
+      "total_tokens": 10548
+    }
+  },
+  {
+    "question": "A concert ticket costs $35 plus a $4 service fee. A family buys 6 tickets and pays $30 for parking. What is the total cost?",
+    "gold_answer": "264",
+    "setting": "multi_verifier",
+    "setting_name": "Multi-Agent + Verifier",
+    "solver_a_output": "Each ticket costs $35 + $4 = $39. For 6 tickets, the cost is 6 × $39 = $234. Adding parking, $234 + $30 = $264.\n\nFinal Answer: 264",
+    "solver_b_output": "The cost per ticket is $35 + $4 = $39. For 6 tickets, the cost is 6 × $39 = $234. Adding the $30 parking fee gives a total of $234 + $30 = $264.\n\nFinal Answer: 264",
+    "verifier_output": {
+      "verified_answer": "264",
+      "chosen_solver": "A",
+      "critique": "Both solvers correctly computed the total cost as $264. The reasoning is identical and accurate."
+    },
+    "final_prediction": "264",
+    "correct": true,
+    "token_usage": {
+      "prompt_tokens": 647,
+      "completion_tokens": 674,
+      "total_tokens": 1321
+    }
+  },
+  {
+    "question": "A library has 520 books. It lends out 40% of them, then buys 75 new books. How many books are in the library now?",
+    "gold_answer": "387",
+    "setting": "multi_verifier",
+    "setting_name": "Multi-Agent + Verifier",
+    "solver_a_output": "The library starts with 520 books. It lends out 40%, which is 0.4 × 520 = 208 books. The remaining books are 520 - 208 = 312. Then it buys 75 new books, so the total becomes 312 + 75 = 387.\n\nFinal Answer: 387",
+    "solver_b_output": "The library starts with 520 books. Lending out 40% leaves 60% of the original, which is 0.6 × 520 = 312 books. Adding 75 new books gives 312 + 75 = 387 books.\n\nFinal Answer: 387",
+    "verifier_output": {
+      "verified_answer": "387",
+      "chosen_solver": "A",
+      "critique": "Both solvers correctly compute the number of books after lending and buying. Solver A and B use equivalent methods and obtain the same result. The arithmetic is accurate: 40% of 520 is 208, leaving 312, plus 75 gives 387. Either answer is acceptable."
+    },
+    "final_prediction": "387",
+    "correct": true,
+    "token_usage": {
+      "prompt_tokens": 733,
+      "completion_tokens": 795,
+      "total_tokens": 1528
+    }
+  }
+]
