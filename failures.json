@@ -1,0 +1,107 @@
+[
+  {
+    "question": "A bag contains 5 red, 3 blue, and 2 green marbles. Two marbles are drawn at random without replacement. What is the probability that both are the same color? Express as a fraction in simplest form.",
+    "prediction": "14/45",
+    "gold_answer": "14/45",
+    "failure_type": "off_by_small_amount",
+    "analysis": "single predicted 14/45 but gold is 14/45. Review solver arithmetic and whether the finalizer copied the best-supported answer."
+  },
+  {
+    "question": "A chemist has a 20% salt solution and a 50% salt solution. How many liters of each must be mixed to get 30 liters of a 35% salt solution?",
+    "prediction": "15",
+    "gold_answer": "15 and 15",
+    "failure_type": "wrong_arithmetic_or_reasoning",
+    "analysis": "single predicted 15 but gold is 15 and 15. Review solver arithmetic and whether the finalizer copied the best-supported answer."
+  },
+  {
+    "question": "A tank has three pipes. Pipe A fills in 6 hours, Pipe B fills in 8 hours, and Pipe C empties in 12 hours. If all three are opened together at 8:00 AM, at what time will the tank be full?",
+    "prediction": "12.8",
+    "gold_answer": "12:48",
+    "failure_type": "wrong_arithmetic_or_reasoning",
+    "analysis": "single predicted 12.8 but gold is 12:48. Review solver arithmetic and whether the finalizer copied the best-supported answer."
+  },
+  {
+    "question": "If 5 workers can paint 3 houses in 4 days, how many days will it take 8 workers to paint 10 houses? (Assume constant work rate)",
+    "prediction": "25/3",
+    "gold_answer": "25/3",
+    "failure_type": "off_by_small_amount",
+    "analysis": "single predicted 25/3 but gold is 25/3. Review solver arithmetic and whether the finalizer copied the best-supported answer."
+  },
+  {
+    "question": "A rectangular box has a volume of 240 cm³. Its length is 4 cm more than its width, and its height is 3 cm less than its width. Find the dimensions (length, width, height) in cm.",
+    "prediction": "10.51, 6.51, 3.51",
+    "gold_answer": "12,8,5",
+    "failure_type": "non_numeric_prediction",
+    "analysis": "single predicted 10.51, 6.51, 3.51 but gold is 12,8,5. Review solver arithmetic and whether the finalizer copied the best-supported answer."
+  },
+  {
+    "question": "A bag contains 5 red, 3 blue, and 2 green marbles. Two marbles are drawn at random without replacement. What is the probability that both are the same color? Express as a fraction in simplest form.",
+    "prediction": "14/45",
+    "gold_answer": "14/45",
+    "failure_type": "off_by_small_amount",
+    "analysis": "multi predicted 14/45 but gold is 14/45. Review solver arithmetic and whether the finalizer copied the best-supported answer."
+  },
+  {
+    "question": "A chemist has a 20% salt solution and a 50% salt solution. How many liters of each must be mixed to get 30 liters of a 35% salt solution?",
+    "prediction": "15",
+    "gold_answer": "15 and 15",
+    "failure_type": "wrong_arithmetic_or_reasoning",
+    "analysis": "multi predicted 15 but gold is 15 and 15. Review solver arithmetic and whether the finalizer copied the best-supported answer."
+  },
+  {
+    "question": "A tank has three pipes. Pipe A fills in 6 hours, Pipe B fills in 8 hours, and Pipe C empties in 12 hours. If all three are opened together at 8:00 AM, at what time will the tank be full?",
+    "prediction": "12.8",
+    "gold_answer": "12:48",
+    "failure_type": "wrong_arithmetic_or_reasoning",
+    "analysis": "multi predicted 12.8 but gold is 12:48. Review solver arithmetic and whether the finalizer copied the best-supported answer."
+  },
+  {
+    "question": "If 5 workers can paint 3 houses in 4 days, how many days will it take 8 workers to paint 10 houses? (Assume constant work rate)",
+    "prediction": "25/3",
+    "gold_answer": "25/3",
+    "failure_type": "off_by_small_amount",
+    "analysis": "multi predicted 25/3 but gold is 25/3. Review solver arithmetic and whether the finalizer copied the best-supported answer."
+  },
+  {
+    "question": "A rectangular box has a volume of 240 cm³. Its length is 4 cm more than its width, and its height is 3 cm less than its width. Find the dimensions (length, width, height) in cm.",
+    "prediction": "10.509, 6.509, 3.509",
+    "gold_answer": "12,8,5",
+    "failure_type": "non_numeric_prediction",
+    "analysis": "multi predicted 10.509, 6.509, 3.509 but gold is 12,8,5. Review solver arithmetic and whether the finalizer copied the best-supported answer."
+  },
+  {
+    "question": "A bag contains 5 red, 3 blue, and 2 green marbles. Two marbles are drawn at random without replacement. What is the probability that both are the same color? Express as a fraction in simplest form.",
+    "prediction": "14/45",
+    "gold_answer": "14/45",
+    "failure_type": "off_by_small_amount",
+    "analysis": "multi_verifier predicted 14/45 but gold is 14/45. Review solver arithmetic and whether the finalizer copied the best-supported answer."
+  },
+  {
+    "question": "A chemist has a 20% salt solution and a 50% salt solution. How many liters of each must be mixed to get 30 liters of a 35% salt solution?",
+    "prediction": "15, 15",
+    "gold_answer": "15 and 15",
+    "failure_type": "off_by_small_amount",
+    "analysis": "multi_verifier predicted 15, 15 but gold is 15 and 15. Review solver arithmetic and whether the finalizer copied the best-supported answer."
+  },
+  {
+    "question": "A tank has three pipes. Pipe A fills in 6 hours, Pipe B fills in 8 hours, and Pipe C empties in 12 hours. If all three are opened together at 8:00 AM, at what time will the tank be full?",
+    "prediction": "12.8",
+    "gold_answer": "12:48",
+    "failure_type": "wrong_arithmetic_or_reasoning",
+    "analysis": "multi_verifier predicted 12.8 but gold is 12:48. Review solver arithmetic and whether the finalizer copied the best-supported answer."
+  },
+  {
+    "question": "If 5 workers can paint 3 houses in 4 days, how many days will it take 8 workers to paint 10 houses? (Assume constant work rate)",
+    "prediction": "25/3",
+    "gold_answer": "25/3",
+    "failure_type": "off_by_small_amount",
+    "analysis": "multi_verifier predicted 25/3 but gold is 25/3. Review solver arithmetic and whether the finalizer copied the best-supported answer."
+  },
+  {
+    "question": "A rectangular box has a volume of 240 cm³. Its length is 4 cm more than its width, and its height is 3 cm less than its width. Find the dimensions (length, width, height) in cm.",
+    "prediction": "10.509, 6.509, 3.509",
+    "gold_answer": "12,8,5",
+    "failure_type": "non_numeric_prediction",
+    "analysis": "multi_verifier predicted 10.509, 6.509, 3.509 but gold is 12,8,5. Review solver arithmetic and whether the finalizer copied the best-supported answer."
+  }
+]

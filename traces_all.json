@@ -1,0 +1,1042 @@
+[
+  {
+    "question": "A store increases the price of a product by 20% and then, due to low sales, decreases the new price by 20%. What is the net percentage change in the price? (Give the final percentage, e.g., -4% means a 4% decrease.)",
+    "gold_answer": "-4%",
+    "setting": "single",
+    "setting_name": "Single Agent",
+    "solver_a_output": "The original price is \\(P\\). After a 20% increase, the price becomes \\(1.2P\\). Then a 20% decrease gives \\(1.2P \\times 0.8 = 0.96P\\), which is a 4% decrease from the original.\n\nFinal Answer: -4%",
+    "solver_b_output": "",
+    "verifier_output": {},
+    "final_prediction": "-4%",
+    "correct": true,
+    "token_usage": {
+      "prompt_tokens": 278,
+      "completion_tokens": 218,
+      "total_tokens": 496
+    }
+  },
+  {
+    "question": "A train travels at 90 km/h for 2 hours, then at 60 km/h for 3 hours. What is its average speed for the entire journey in m/s?",
+    "gold_answer": "20",
+    "setting": "single",
+    "setting_name": "Single Agent",
+    "solver_a_output": "The total distance traveled is 90 km/h × 2 h = 180 km for the first part, and 60 km/h × 3 h = 180 km for the second part, summing to 360 km total. The total time is 2 + 3 = 5 hours. Average speed = 360 km / 5 h = 72 km/h. Converting to m/s: 72 × (1000/3600) = 72 × (5/18) = 20 m/s.\n\nFinal Answer: 20",
+    "solver_b_output": "",
+    "verifier_output": {},
+    "final_prediction": "20",
+    "correct": true,
+    "token_usage": {
+      "prompt_tokens": 285,
+      "completion_tokens": 451,
+      "total_tokens": 736
+    }
+  },
+  {
+    "question": "A bakery sells muffins at $2.50 each, but offers a 10% discount if you buy 6 or more. If you buy 8 muffins, how much do you pay? Also, sales tax of 8% is applied after the discount. Round to the nearest cent.",
+    "gold_answer": "19.44",
+    "setting": "single",
+    "setting_name": "Single Agent",
+    "solver_a_output": "Step 1: Calculate the total price before discount: 8 muffins × $2.50 = $20.00.\nStep 2: Apply the 10% discount (for buying 6 or more): 10% of $20.00 = $2.00, so discounted price = $20.00 - $2.00 = $18.00.\nStep 3: Apply 8% sales tax to the discounted price: 8% of $18.00 = $1.44.\nStep 4: Total cost = $18.00 + $1.44 = $19.44. Rounded to the nearest cent, it remains $19.44.\n\nFinal Answer: 19.44",
+    "solver_b_output": "",
+    "verifier_output": {},
+    "final_prediction": "19.44",
+    "correct": true,
+    "token_usage": {
+      "prompt_tokens": 365,
+      "completion_tokens": 395,
+      "total_tokens": 760
+    }
+  },
+  {
+    "question": "Five years ago, Tom was twice as old as Jerry. In 10 years, Tom will be 1.5 times as old as Jerry. How old is Tom now?",
+    "gold_answer": "35",
+    "setting": "single",
+    "setting_name": "Single Agent",
+    "solver_a_output": "Let Tom's current age be \\(T\\) and Jerry's current age be \\(J\\).  \nFive years ago: \\(T - 5 = 2(J - 5)\\) → \\(T = 2J - 5\\).  \nIn 10 years: \\(T + 10 = 1.5(J + 10)\\) → \\(T = 1.5J + 5\\).  \nEquate: \\(2J - 5 = 1.5J + 5\\) → \\(0.5J = 10\\) → \\(J = 20\\).  \nThen \\(T = 2(20) - 5 = 35\\).  \n\nFinal Answer: 35",
+    "solver_b_output": "",
+    "verifier_output": {},
+    "final_prediction": "35",
+    "correct": true,
+    "token_usage": {
+      "prompt_tokens": 312,
+      "completion_tokens": 522,
+      "total_tokens": 834
+    }
+  },
+  {
+    "question": "It takes 6 workers 8 days to build a wall. After 2 days, 2 workers quit. How many additional days are needed to finish the wall, assuming all workers work at the same rate?",
+    "gold_answer": "9",
+    "setting": "single",
+    "setting_name": "Single Agent",
+    "solver_a_output": "The total work required to build the wall is 6 workers × 8 days = 48 worker-days.  \nIn the first 2 days, 6 workers complete 6 × 2 = 12 worker-days of work.  \nRemaining work: 48 − 12 = 36 worker-days.  \nAfter 2 workers quit, there are 6 − 2 = 4 workers left.  \nAdditional days needed: 36 ÷ 4 = 9 days.\n\nFinal Answer: 9",
+    "solver_b_output": "",
+    "verifier_output": {},
+    "final_prediction": "9",
+    "correct": true,
+    "token_usage": {
+      "prompt_tokens": 291,
+      "completion_tokens": 325,
+      "total_tokens": 616
+    }
+  },
+  {
+    "question": "The average of five numbers is 12. If one number is removed, the average becomes 10. What is the removed number?",
+    "gold_answer": "20",
+    "setting": "single",
+    "setting_name": "Single Agent",
+    "solver_a_output": "The sum of the five numbers is \\(5 \\times 12 = 60\\). After removing one number, the sum of the remaining four numbers is \\(4 \\times 10 = 40\\). The removed number is \\(60 - 40 = 20\\).\n\nFinal Answer: 20",
+    "solver_b_output": "",
+    "verifier_output": {},
+    "final_prediction": "20",
+    "correct": true,
+    "token_usage": {
+      "prompt_tokens": 211,
+      "completion_tokens": 192,
+      "total_tokens": 403
+    }
+  },
+  {
+    "question": "A bag contains 5 red, 3 blue, and 2 green marbles. Two marbles are drawn at random without replacement. What is the probability that both are the same color? Express as a fraction in simplest form.",
+    "gold_answer": "14/45",
+    "setting": "single",
+    "setting_name": "Single Agent",
+    "solver_a_output": "The probability that both marbles are the same color is found by summing the probabilities of drawing two red, two blue, or two green marbles. There are 10 total marbles: 5 red, 3 blue, 2 green.\n\n- Both red: \\(\\frac{5}{10} \\times \\frac{4}{9} = \\frac{20}{90} = \\frac{2}{9}\\)\n- Both blue: \\(\\frac{3}{10} \\times \\frac{2}{9} = \\frac{6}{90} = \\frac{1}{15}\\)\n- Both green: \\(\\frac{2}{10} \\times \\frac{1}{9} = \\frac{2}{90} = \\frac{1}{45}\\)\n\nConvert to common denominator 45: \\(\\frac{2}{9} = \\frac{10}{45}\\), \\(\\frac{1}{15} = \\frac{3}{45}\\), \\(\\frac{1}{45} = \\frac{1}{45}\\). Sum: \\(\\frac{10+3+1}{45} = \\frac{14}{45}\\).\n\nAlternatively, using combinations: total ways to choose 2 marbles from 10 is \\(\\binom{10}{2} = 45\\). Ways to choose two red: \\(\\binom{5}{2}=10\\), two blue: \\(\\binom{3}{2}=3\\), two green: \\(\\binom{2}{2}=1\\), total 14. Probability = \\(\\frac{14}{45}\\).\n\nFinal Answer: 14/45",
+    "solver_b_output": "",
+    "verifier_output": {},
+    "final_prediction": "14/45",
+    "correct": false,
+    "token_usage": {
+      "prompt_tokens": 505,
+      "completion_tokens": 657,
+      "total_tokens": 1162
+    }
+  },
+  {
+    "question": "A rectangular garden is 15 meters long and 10 meters wide. A path of uniform width is built around the garden, increasing the total area to 234 square meters. What is the width of the path in meters?",
+    "gold_answer": "1.5",
+    "setting": "single",
+    "setting_name": "Single Agent",
+    "solver_a_output": "The garden's original dimensions are 15 m by 10 m. Let the path width be \\(x\\) meters. Then the overall length is \\(15 + 2x\\) and width is \\(10 + 2x\\). The total area is \\((15 + 2x)(10 + 2x) = 234\\).\n\nExpanding: \\(150 + 30x + 20x + 4x^2 = 234\\), which simplifies to \\(4x^2 + 50x + 150 = 234\\). Subtract 234: \\(4x^2 + 50x - 84 = 0\\). Divide by 2: \\(2x^2 + 25x - 42 = 0\\).\n\nSolve using the quadratic formula: discriminant \\(25^2 - 4 \\cdot 2 \\cdot (-42) = 625 + 336 = 961\\), and \\(\\sqrt{961} = 31\\). Then \\(x = \\frac{-25 \\pm 31}{4}\\). The positive solution is \\(\\frac{-25 + 31}{4} = \\frac{6}{4} = 1.5\\).\n\nThus, the path width is 1.5 meters.\n\nFinal Answer: 1.5",
+    "solver_b_output": "",
+    "verifier_output": {},
+    "final_prediction": "1.5",
+    "correct": true,
+    "token_usage": {
+      "prompt_tokens": 444,
+      "completion_tokens": 695,
+      "total_tokens": 1139
+    }
+  },
+  {
+    "question": "Find the next number in the sequence: 2, 6, 15, 31, 56, ?",
+    "gold_answer": "92",
+    "setting": "single",
+    "setting_name": "Single Agent",
+    "solver_a_output": "The differences between consecutive terms are 4, 9, 16, 25, which are squares of 2, 3, 4, 5 respectively. The next difference is the square of 6, which is 36. Adding 36 to 56 gives 92.\n\nFinal Answer: 92",
+    "solver_b_output": "",
+    "verifier_output": {},
+    "final_prediction": "92",
+    "correct": true,
+    "token_usage": {
+      "prompt_tokens": 212,
+      "completion_tokens": 239,
+      "total_tokens": 451
+    }
+  },
+  {
+    "question": "Three friends each have a different number of apples. Alice says, \"I have 10 apples.\" Bob says, \"I have 5 fewer than Alice.\" Carol says, \"I have twice as many as Bob.\" If exactly one of them is lying, and the total number of apples is 30, how many apples does Alice really have?",
+    "gold_answer": "10",
+    "setting": "single",
+    "setting_name": "Single Agent",
+    "solver_a_output": "The actual numbers are determined by assuming exactly one liar. If Carol is lying, Alice's statement (A=10) and Bob's statement (B=A-5=5) are true, giving total 10+5+C=30, so C=15. This satisfies distinct apples and only Carol lying. The other cases yield non-integer totals. Thus Alice really has 10 apples.\n\nFinal Answer: 10",
+    "solver_b_output": "",
+    "verifier_output": {},
+    "final_prediction": "10",
+    "correct": true,
+    "token_usage": {
+      "prompt_tokens": 324,
+      "completion_tokens": 1351,
+      "total_tokens": 1675
+    }
+  },
+  {
+    "question": "A chemist has a 20% salt solution and a 50% salt solution. How many liters of each must be mixed to get 30 liters of a 35% salt solution?",
+    "gold_answer": "15 and 15",
+    "setting": "single",
+    "setting_name": "Single Agent",
+    "solver_a_output": "Let x be liters of the 20% salt solution and y be liters of the 50% salt solution. The total volume is x + y = 30. The salt content equation is 0.20x + 0.50y = 0.35 × 30 = 10.5. Substituting y = 30 - x gives 0.2x + 0.5(30 - x) = 10.5 → 0.2x + 15 - 0.5x = 10.5 → -0.3x = -4.5 → x = 15. Then y = 15. Thus, 15 liters of each solution are needed.\n\nFinal Answer: 15",
+    "solver_b_output": "",
+    "verifier_output": {},
+    "final_prediction": "15",
+    "correct": false,
+    "token_usage": {
+      "prompt_tokens": 327,
+      "completion_tokens": 1171,
+      "total_tokens": 1498
+    }
+  },
+  {
+    "question": "What is the angle between the hour and minute hands of a clock at 3:40? Give answer in degrees (smaller angle).",
+    "gold_answer": "130",
+    "setting": "single",
+    "setting_name": "Single Agent",
+    "solver_a_output": "The minute hand at 40 minutes is at 240° from 12 o'clock. The hour hand at 3:00 is at 90°, and moves 0.5° per minute, so at 3:40 it is at 90° + 20° = 110°. The difference is |240° - 110°| = 130°. This is the smaller angle as it is less than 180°.\n\nFinal Answer: 130",
+    "solver_b_output": "",
+    "verifier_output": {},
+    "final_prediction": "130",
+    "correct": true,
+    "token_usage": {
+      "prompt_tokens": 250,
+      "completion_tokens": 704,
+      "total_tokens": 954
+    }
+  },
+  {
+    "question": "If today is Saturday, what day of the week will it be 100 days from today?",
+    "gold_answer": "Monday",
+    "setting": "single",
+    "setting_name": "Single Agent",
+    "solver_a_output": "100 days from Saturday: 100 mod 7 = 2, so it is 2 days later. Saturday + 2 days = Monday.\n\nFinal Answer: Monday",
+    "solver_b_output": "",
+    "verifier_output": {},
+    "final_prediction": "Monday",
+    "correct": true,
+    "token_usage": {
+      "prompt_tokens": 171,
+      "completion_tokens": 193,
+      "total_tokens": 364
+    }
+  },
+  {
+    "question": "You have US dollars and want to convert to Euros. The exchange rate is 1 USD = 0.85 EUR, but the bank charges a 3% fee on the amount exchanged (after conversion). If you want to receive exactly 500 EUR after fees, how many USD do you need to exchange? Round to nearest cent.",
+    "gold_answer": "606.43",
+    "setting": "single",
+    "setting_name": "Single Agent",
+    "solver_a_output": "Let \\( x \\) be the amount in USD. After conversion at 0.85 EUR per USD, you get \\( 0.85x \\) EUR. A 3% fee is charged on this amount, so the fee is \\( 0.03 \\times 0.85x = 0.0255x \\) EUR. The net amount received is \\( 0.85x - 0.0255x = 0.8245x \\) EUR. Set this equal to 500 EUR:\n\n\\[\n0.8245x = 500 \\implies x = \\frac{500}{0.8245} \\approx 606.428.\n\\]\n\nRounding to the nearest cent gives 606.43.\n\nFinal Answer: 606.43",
+    "solver_b_output": "",
+    "verifier_output": {},
+    "final_prediction": "606.43",
+    "correct": true,
+    "token_usage": {
+      "prompt_tokens": 390,
+      "completion_tokens": 1949,
+      "total_tokens": 2339
+    }
+  },
+  {
+    "question": "A tank has three pipes. Pipe A fills in 6 hours, Pipe B fills in 8 hours, and Pipe C empties in 12 hours. If all three are opened together at 8:00 AM, at what time will the tank be full?",
+    "gold_answer": "12:48",
+    "setting": "single",
+    "setting_name": "Single Agent",
+    "solver_a_output": "The net filling rate is 1/6 + 1/8 - 1/12 = 5/24 tank per hour. The time to fill is 1 / (5/24) = 24/5 = 4.8 hours, which is 4 hours and 48 minutes. Starting at 8:00 AM, adding 4 hours 48 minutes gives 12:48 PM, which is 12.8 hours after midnight.\n\nFinal Answer: 12.8",
+    "solver_b_output": "",
+    "verifier_output": {},
+    "final_prediction": "12.8",
+    "correct": false,
+    "token_usage": {
+      "prompt_tokens": 309,
+      "completion_tokens": 3385,
+      "total_tokens": 3694
+    }
+  },
+  {
+    "question": "A car travels from A to B at 60 km/h and returns from B to A at 40 km/h. What is the average speed for the entire round trip? (in km/h)",
+    "gold_answer": "48",
+    "setting": "single",
+    "setting_name": "Single Agent",
+    "solver_a_output": "The average speed for the round trip is calculated as total distance divided by total time. Let the one-way distance be \\(d\\) km. Total distance is \\(2d\\). Time from A to B is \\(\\frac{d}{60}\\) hours, and return time is \\(\\frac{d}{40}\\) hours. Total time is \\(\\frac{d}{60} + \\frac{d}{40} = d\\left(\\frac{1}{60} + \\frac{1}{40}\\right) = d\\left(\\frac{2}{120} + \\frac{3}{120}\\right) = d \\cdot \\frac{5}{120} = \\frac{d}{24}\\) hours. Average speed is \\(\\frac{2d}{d/24} = 2 \\times 24 = 48\\) km/h.\n\nFinal Answer: 48",
+    "solver_b_output": "",
+    "verifier_output": {},
+    "final_prediction": "48",
+    "correct": true,
+    "token_usage": {
+      "prompt_tokens": 348,
+      "completion_tokens": 368,
+      "total_tokens": 716
+    }
+  },
+  {
+    "question": "If 5 workers can paint 3 houses in 4 days, how many days will it take 8 workers to paint 10 houses? (Assume constant work rate)",
+    "gold_answer": "25/3",
+    "setting": "single",
+    "setting_name": "Single Agent",
+    "solver_a_output": "The work rate is constant. Five workers paint 3 houses in 4 days, so the total worker-days required for 3 houses is \\(5 \\times 4 = 20\\). Thus, each house requires \\(\\frac{20}{3}\\) worker-days. For 10 houses, the total worker-days needed is \\(10 \\times \\frac{20}{3} = \\frac{200}{3}\\).\n\nWith 8 workers, the number of days required is \\(\\frac{200}{3} \\div 8 = \\frac{200}{24} = \\frac{25}{3}\\) days.\n\nFinal Answer: \\(\\frac{25}{3}\\)",
+    "solver_b_output": "",
+    "verifier_output": {},
+    "final_prediction": "25/3",
+    "correct": false,
+    "token_usage": {
+      "prompt_tokens": 305,
+      "completion_tokens": 865,
+      "total_tokens": 1170
+    }
+  },
+  {
+    "question": "A store buys a shirt for $20 and marks it up 50% to get the selling price. During a sale, the shirt is discounted 20% off the selling price. What is the final profit or loss percentage relative to the cost?",
+    "gold_answer": "20%",
+    "setting": "single",
+    "setting_name": "Single Agent",
+    "solver_a_output": "The store's cost is $20. A 50% markup gives a selling price of $20 + $10 = $30. A 20% discount reduces the price by $6, resulting in a sale price of $24. The profit is $24 - $20 = $4. The profit percentage relative to cost is (4/20) × 100% = 20%.\n\nFinal Answer: 20",
+    "solver_b_output": "",
+    "verifier_output": {},
+    "final_prediction": "20",
+    "correct": true,
+    "token_usage": {
+      "prompt_tokens": 284,
+      "completion_tokens": 318,
+      "total_tokens": 602
+    }
+  },
+  {
+    "question": "A rectangular box has a volume of 240 cm³. Its length is 4 cm more than its width, and its height is 3 cm less than its width. Find the dimensions (length, width, height) in cm.",
+    "gold_answer": "12,8,5",
+    "setting": "single",
+    "setting_name": "Single Agent",
+    "solver_a_output": "Let width = \\(w\\) cm. Then length = \\(w + 4\\) cm, height = \\(w - 3\\) cm. Volume is  \n\\[\nw(w+4)(w-3) = 240.\n\\]  \nExpanding:  \n\\[\nw^3 + w^2 - 12w - 240 = 0.\n\\]  \nTest integer values: \\(w=6\\) gives \\(180\\), \\(w=7\\) gives \\(308\\), so root between 6 and 7.  \nAt \\(w=6.5\\): \\(6.5 \\times 10.5 \\times 3.5 = 238.875\\), below 240.  \nAt \\(w=6.6\\): \\(6.6 \\times 10.6 \\times 3.6 = 251.856\\), above 240.  \nUsing linear interpolation:  \n\\[\nw \\approx 6.5 + \\frac{240-238.875}{251.856-238.875} \\times 0.1 \\approx 6.5087.\n\\]  \nRefining with Newton's method gives \\(w \\approx 6.509\\).  \nThus width \\(\\approx 6.509\\) cm, length \\(\\approx 10.509\\) cm, height \\(\\approx 3.509\\) cm.  \nRounded to two decimals: width \\(6.51\\) cm, length \\(10.51\\) cm, height \\(3.51\\) cm.\n\nFinal Answer: 10.51, 6.51, 3.51",
+    "solver_b_output": "",
+    "verifier_output": {},
+    "final_prediction": "10.51, 6.51, 3.51",
+    "correct": false,
+    "token_usage": {
+      "prompt_tokens": 518,
+      "completion_tokens": 16862,
+      "total_tokens": 17380
+    }
+  },
+  {
+    "question": "A man invests $5000 at 6% annual interest compounded quarterly. How much money will he have after 2 years? Round to the nearest cent.",
+    "gold_answer": "5632.46",
+    "setting": "single",
+    "setting_name": "Single Agent",
+    "solver_a_output": "We use the compound interest formula \\(A = P(1 + \\frac{r}{n})^{nt}\\), where \\(P = 5000\\), \\(r = 0.06\\), \\(n = 4\\), and \\(t = 2\\). This gives \\(A = 5000(1 + \\frac{0.06}{4})^{4 \\times 2} = 5000(1.015)^8\\). Computing \\((1.015)^8\\) step by step:  \n\\(1.015^2 = 1.030225\\),  \n\\(1.015^4 = (1.030225)^2 = 1.061363550625\\),  \n\\(1.015^8 = (1.061363550625)^2 = 1.126492586595306937890625\\).  \nMultiplying by 5000: \\(5000 \\times 1.126492586595306937890625 = 5632.462932976534689453125\\).  \nRounding to the nearest cent gives 5632.46.\n\nFinal Answer: 5632.46",
+    "solver_b_output": "",
+    "verifier_output": {},
+    "final_prediction": "5632.46",
+    "correct": true,
+    "token_usage": {
+      "prompt_tokens": 389,
+      "completion_tokens": 1802,
+      "total_tokens": 2191
+    }
+  },
+  {
+    "question": "A store increases the price of a product by 20% and then, due to low sales, decreases the new price by 20%. What is the net percentage change in the price? (Give the final percentage, e.g., -4% means a 4% decrease.)",
+    "gold_answer": "-4%",
+    "setting": "multi",
+    "setting_name": "Multi-Agent",
+    "solver_a_output": "The original price is increased by 20%, making it 1.2 times the original. Then it is decreased by 20%, so the final price is 1.2 × 0.8 = 0.96 times the original. This represents a 4% decrease from the original price.\n\nFinal Answer: -4",
+    "solver_b_output": "The original price is increased by 20% to 1.2 times the original, then decreased by 20% to 0.96 times the original, resulting in a net decrease of 4%.\n\nFinal Answer: -4%",
+    "verifier_output": {},
+    "final_prediction": "-4",
+    "correct": true,
+    "token_usage": {
+      "prompt_tokens": 445,
+      "completion_tokens": 722,
+      "total_tokens": 1167
+    }
+  },
+  {
+    "question": "A train travels at 90 km/h for 2 hours, then at 60 km/h for 3 hours. What is its average speed for the entire journey in m/s?",
+    "gold_answer": "20",
+    "setting": "multi",
+    "setting_name": "Multi-Agent",
+    "solver_a_output": "The total distance is 90 km/h × 2 h + 60 km/h × 3 h = 180 km + 180 km = 360 km. Total time is 2 h + 3 h = 5 h. Average speed = 360 km / 5 h = 72 km/h. Converting to m/s: 72 × (1000/3600) = 72 × (5/18) = 20 m/s.\n\nFinal Answer: 20",
+    "solver_b_output": "The total distance is 90 km/h × 2 h = 180 km for the first segment and 60 km/h × 3 h = 180 km for the second, giving 360 km total. Total time is 5 hours. Average speed is 360 km / 5 h = 72 km/h. Converting to m/s: 72 × (1000/3600) = 72 × (5/18) = 20 m/s.\n\nFinal Answer: 20",
+    "verifier_output": {},
+    "final_prediction": "20",
+    "correct": true,
+    "token_usage": {
+      "prompt_tokens": 471,
+      "completion_tokens": 618,
+      "total_tokens": 1089
+    }
+  },
+  {
+    "question": "A bakery sells muffins at $2.50 each, but offers a 10% discount if you buy 6 or more. If you buy 8 muffins, how much do you pay? Also, sales tax of 8% is applied after the discount. Round to the nearest cent.",
+    "gold_answer": "19.44",
+    "setting": "multi",
+    "setting_name": "Multi-Agent",
+    "solver_a_output": "The total cost before discount is 8 × $2.50 = $20.00. A 10% discount applies, reducing the price by $20.00 × 0.10 = $2.00, so the discounted price is $18.00. An 8% sales tax on $18.00 is $18.00 × 0.08 = $1.44. The final amount is $18.00 + $1.44 = $19.44.\n\nFinal Answer: 19.44",
+    "solver_b_output": "The discounted price per muffin is $2.50 × 0.90 = $2.25. For 8 muffins, the subtotal is 8 × $2.25 = $18.00. The sales tax is 8% of $18.00 = $1.44, so the total is $19.44.\n\nFinal Answer: 19.44",
+    "verifier_output": {},
+    "final_prediction": "19.44",
+    "correct": true,
+    "token_usage": {
+      "prompt_tokens": 521,
+      "completion_tokens": 504,
+      "total_tokens": 1025
+    }
+  },
+  {
+    "question": "Five years ago, Tom was twice as old as Jerry. In 10 years, Tom will be 1.5 times as old as Jerry. How old is Tom now?",
+    "gold_answer": "35",
+    "setting": "multi",
+    "setting_name": "Multi-Agent",
+    "solver_a_output": "Let Tom's current age be \\(T\\) and Jerry's current age be \\(J\\).\n\nFive years ago:\n\\[\nT - 5 = 2(J - 5) \\implies T - 5 = 2J - 10 \\implies T = 2J - 5.\n\\]\n\nIn 10 years:\n\\[\nT + 10 = 1.5(J + 10) \\implies T + 10 = 1.5J + 15 \\implies T = 1.5J + 5.\n\\]\n\nSet the expressions for \\(T\\) equal:\n\\[\n2J - 5 = 1.5J + 5 \\implies 0.5J = 10 \\implies J = 20.\n\\]\n\nThen \\(T = 2(20) - 5 = 40 - 5 = 35\\).\n\nFinal Answer: 35",
+    "solver_b_output": "Tom's current age is 35.\n\nLet \\( T \\) be Tom's current age and \\( J \\) be Jerry's current age. From the first condition, five years ago: \\( T - 5 = 2(J - 5) \\), which simplifies to \\( T = 2J - 5 \\). From the second condition, in 10 years: \\( T + 10 = 1.5(J + 10) \\), simplifying to \\( T = 1.5J + 5 \\). Equating the two expressions: \\( 2J - 5 = 1.5J + 5 \\) gives \\( 0.5J = 10 \\), so \\( J = 20 \\). Substituting back gives \\( T = 2(20) - 5 = 35 \\). Verification: five years ago (30 and 15, double), in 10 years (45 and 30, 1.5 times) confirms the solution.\n\nFinal Answer: 35",
+    "verifier_output": {},
+    "final_prediction": "35",
+    "correct": true,
+    "token_usage": {
+      "prompt_tokens": 656,
+      "completion_tokens": 930,
+      "total_tokens": 1586
+    }
+  },
+  {
+    "question": "It takes 6 workers 8 days to build a wall. After 2 days, 2 workers quit. How many additional days are needed to finish the wall, assuming all workers work at the same rate?",
+    "gold_answer": "9",
+    "setting": "multi",
+    "setting_name": "Multi-Agent",
+    "solver_a_output": "The total work required to build the wall is 6 workers × 8 days = 48 worker-days. In the first 2 days, 6 workers complete 6 × 2 = 12 worker-days of work. The remaining work is 48 - 12 = 36 worker-days. After 2 workers quit, 4 workers remain. The number of additional days needed is 36 ÷ 4 = 9 days.\n\nFinal Answer: 9",
+    "solver_b_output": "The total work required to build the wall is 6 workers × 8 days = 48 worker-days. In the first 2 days, 6 workers complete 6 × 2 = 12 worker-days of work. The remaining work is 48 - 12 = 36 worker-days. After 2 workers quit, 4 workers remain. The number of additional days needed is 36 worker-days ÷ 4 workers = 9 days.\n\nFinal Answer: 9",
+    "verifier_output": {},
+    "final_prediction": "9",
+    "correct": true,
+    "token_usage": {
+      "prompt_tokens": 486,
+      "completion_tokens": 603,
+      "total_tokens": 1089
+    }
+  },
+  {
+    "question": "The average of five numbers is 12. If one number is removed, the average becomes 10. What is the removed number?",
+    "gold_answer": "20",
+    "setting": "multi",
+    "setting_name": "Multi-Agent",
+    "solver_a_output": "The sum of five numbers is 12 × 5 = 60. After removing one number, the sum of the remaining four is 10 × 4 = 40. The removed number is the difference: 60 − 40 = 20.\n\nFinal Answer: 20",
+    "solver_b_output": "The sum of the five numbers is \\(5 \\times 12 = 60\\). After removing one number, the sum of the remaining four numbers is \\(4 \\times 10 = 40\\). The removed number is the difference: \\(60 - 40 = 20\\).\n\nFinal Answer: 20",
+    "verifier_output": {},
+    "final_prediction": "20",
+    "correct": true,
+    "token_usage": {
+      "prompt_tokens": 358,
+      "completion_tokens": 470,
+      "total_tokens": 828
+    }
+  },
+  {
+    "question": "A bag contains 5 red, 3 blue, and 2 green marbles. Two marbles are drawn at random without replacement. What is the probability that both are the same color? Express as a fraction in simplest form.",
+    "gold_answer": "14/45",
+    "setting": "multi",
+    "setting_name": "Multi-Agent",
+    "solver_a_output": "The probability that both marbles drawn are the same color is the sum of the probabilities of drawing two reds, two blues, or two greens. Calculate each:\n\n- Both red: \\(\\frac{5}{10} \\times \\frac{4}{9} = \\frac{20}{90} = \\frac{2}{9} = \\frac{10}{45}\\)\n- Both blue: \\(\\frac{3}{10} \\times \\frac{2}{9} = \\frac{6}{90} = \\frac{1}{15} = \\frac{3}{45}\\)\n- Both green: \\(\\frac{2}{10} \\times \\frac{1}{9} = \\frac{2}{90} = \\frac{1}{45}\\)\n\nSum: \\(\\frac{10}{45} + \\frac{3}{45} + \\frac{1}{45} = \\frac{14}{45}\\). This fraction is in simplest form.\n\nFinal Answer: \\(\\frac{14}{45}\\)",
+    "solver_b_output": "The total number of marbles is 10 (5 red, 3 blue, 2 green). The number of ways to draw 2 marbles without replacement is \\( \\binom{10}{2} = 45 \\). The favorable outcomes are drawing two reds: \\( \\binom{5}{2} = 10 \\), two blues: \\( \\binom{3}{2} = 3 \\), and two greens: \\( \\binom{2}{2} = 1 \\). Total favorable = 14. The probability is \\( \\frac{14}{45} \\), which is already in simplest form.\n\nFinal Answer: 14/45",
+    "verifier_output": {},
+    "final_prediction": "14/45",
+    "correct": false,
+    "token_usage": {
+      "prompt_tokens": 634,
+      "completion_tokens": 1095,
+      "total_tokens": 1729
+    }
+  },
+  {
+    "question": "A rectangular garden is 15 meters long and 10 meters wide. A path of uniform width is built around the garden, increasing the total area to 234 square meters. What is the width of the path in meters?",
+    "gold_answer": "1.5",
+    "setting": "multi",
+    "setting_name": "Multi-Agent",
+    "solver_a_output": "The garden has length 15 m and width 10 m. A path of uniform width \\(x\\) m is added around it, giving overall dimensions \\((15 + 2x)\\) by \\((10 + 2x)\\). The total area is 234 m², so:\n\n\\[\n(15 + 2x)(10 + 2x) = 234\n\\]\n\nExpanding:\n\n\\[\n150 + 30x + 20x + 4x^2 = 234 \\implies 4x^2 + 50x + 150 = 234\n\\]\n\nSimplify:\n\n\\[\n4x^2 + 50x - 84 = 0 \\implies 2x^2 + 25x - 42 = 0\n\\]\n\nSolve using the quadratic formula:\n\n\\[\nx = \\frac{-25 \\pm \\sqrt{25^2 - 4 \\cdot 2 \\cdot (-42)}}{2 \\cdot 2} = \\frac{-25 \\pm \\sqrt{625 + 336}}{4} = \\frac{-25 \\pm \\sqrt{961}}{4} = \\frac{-25 \\pm 31}{4}\n\\]\n\nTaking the positive root:\n\n\\[\nx = \\frac{6}{4} = 1.5\n\\]\n\nThe negative root is \\(-14\\), which is not valid. Thus, the width of the path is 1.5 meters.\n\nFinal Answer: 1.5",
+    "solver_b_output": "The garden has length 15 m and width 10 m. Let the path width be \\(x\\) meters. The total length including the path is \\(15 + 2x\\), and the total width is \\(10 + 2x\\). The total area is given as 234 m², so:\n\n\\[\n(15 + 2x)(10 + 2x) = 234\n\\]\n\nExpanding:\n\n\\[\n150 + 30x + 20x + 4x^2 = 234 \\implies 4x^2 + 50x + 150 = 234\n\\]\n\n\\[\n4x^2 + 50x - 84 = 0\n\\]\n\nDivide by 2:\n\n\\[\n2x^2 + 25x - 42 = 0\n\\]\n\nSolve the quadratic equation:\n\n\\[\nx = \\frac{-25 \\pm \\sqrt{25^2 - 4 \\cdot 2 \\cdot (-42)}}{2 \\cdot 2} = \\frac{-25 \\pm \\sqrt{625 + 336}}{4} = \\frac{-25 \\pm \\sqrt{961}}{4} = \\frac{-25 \\pm 31}{4}\n\\]\n\nTaking the positive root:\n\n\\[\nx = \\frac{-25 + 31}{4} = \\frac{6}{4} = 1.5\n\\]\n\nThe width of the path is 1.5 meters.\n\nFinal Answer: 1.5",
+    "verifier_output": {},
+    "final_prediction": "1.5",
+    "correct": true,
+    "token_usage": {
+      "prompt_tokens": 892,
+      "completion_tokens": 1348,
+      "total_tokens": 2240
+    }
+  },
+  {
+    "question": "Find the next number in the sequence: 2, 6, 15, 31, 56, ?",
+    "gold_answer": "92",
+    "setting": "multi",
+    "setting_name": "Multi-Agent",
+    "solver_a_output": "The differences between consecutive terms are 4, 9, 16, and 25, which are squares of 2, 3, 4, and 5 respectively. The next difference is 6^2 = 36. Adding this to the last term gives 56 + 36 = 92.\n\nFinal Answer: 92",
+    "solver_b_output": "The differences between consecutive terms are 4, 9, 16, 25, which are the squares of 2, 3, 4, 5. The next difference should be \\(6^2 = 36\\), so the next term is \\(56 + 36 = 92\\).\n\nFinal Answer: 92",
+    "verifier_output": {},
+    "final_prediction": "92",
+    "correct": true,
+    "token_usage": {
+      "prompt_tokens": 368,
+      "completion_tokens": 815,
+      "total_tokens": 1183
+    }
+  },
+  {
+    "question": "Three friends each have a different number of apples. Alice says, \"I have 10 apples.\" Bob says, \"I have 5 fewer than Alice.\" Carol says, \"I have twice as many as Bob.\" If exactly one of them is lying, and the total number of apples is 30, how many apples does Alice really have?",
+    "gold_answer": "10",
+    "setting": "multi",
+    "setting_name": "Multi-Agent",
+    "solver_a_output": "The only consistent scenario is when Carol is lying. Alice tells the truth (10 apples), Bob tells the truth (5 apples), and Carol lies (actually has 15 apples, not 10). The total is 30, and all numbers are different.\n\nFinal Answer: 10",
+    "solver_b_output": "The only consistent scenario is when Carol is lying. With Alice and Bob telling the truth, Alice has 10 apples, Bob has 5, and Carol has 15, totaling 30. This satisfies the conditions.\n\nFinal Answer: 10",
+    "verifier_output": {},
+    "final_prediction": "10",
+    "correct": true,
+    "token_usage": {
+      "prompt_tokens": 475,
+      "completion_tokens": 2518,
+      "total_tokens": 2993
+    }
+  },
+  {
+    "question": "A chemist has a 20% salt solution and a 50% salt solution. How many liters of each must be mixed to get 30 liters of a 35% salt solution?",
+    "gold_answer": "15 and 15",
+    "setting": "multi",
+    "setting_name": "Multi-Agent",
+    "solver_a_output": "Let \\( x \\) be the liters of 20% salt solution and \\( y \\) be the liters of 50% salt solution. The total volume is 30 liters:\n\n\\[\nx + y = 30\n\\]\n\nThe total salt from the mixture is 35% of 30 liters:\n\n\\[\n0.20x + 0.50y = 0.35 \\times 30 = 10.5\n\\]\n\nSubstitute \\( y = 30 - x \\) into the salt equation:\n\n\\[\n0.2x + 0.5(30 - x) = 10.5\n\\]\n\\[\n0.2x + 15 - 0.5x = 10.5\n\\]\n\\[\n-0.3x = -4.5\n\\]\n\\[\nx = 15\n\\]\n\nThen \\( y = 30 - 15 = 15 \\). Therefore, 15 liters of each solution are needed.\n\nFinal Answer: 15",
+    "solver_b_output": "To mix 30 liters of a 35% salt solution, let \\(x\\) be the liters of 20% solution and \\(y\\) the liters of 50% solution. The volume equation is \\(x + y = 30\\). The salt content equation is \\(0.20x + 0.50y = 0.35 \\times 30 = 10.5\\). Substituting \\(y = 30 - x\\) gives \\(0.2x + 0.5(30 - x) = 10.5\\), which simplifies to \\(0.2x + 15 - 0.5x = 10.5\\), so \\(-0.3x = -4.5\\) and \\(x = 15\\). Thus \\(y = 15\\). Each solution contributes 15 liters.\n\nFinal Answer: 15",
+    "verifier_output": {},
+    "final_prediction": "15",
+    "correct": false,
+    "token_usage": {
+      "prompt_tokens": 649,
+      "completion_tokens": 1482,
+      "total_tokens": 2131
+    }
+  },
+  {
+    "question": "What is the angle between the hour and minute hands of a clock at 3:40? Give answer in degrees (smaller angle).",
+    "gold_answer": "130",
+    "setting": "multi",
+    "setting_name": "Multi-Agent",
+    "solver_a_output": "The minute hand at 40 minutes is at 40 × 6 = 240 degrees from 12. The hour hand at 3:00 is at 90 degrees, and it moves 0.5 degrees per minute, so in 40 minutes it moves 20 degrees, resulting in 110 degrees. The difference is |240 - 110| = 130 degrees, which is the smaller angle.\n\nFinal Answer: 130",
+    "solver_b_output": "The hour hand at 3:40 is at 110° (90° from 3:00 plus 20° from 40 minutes). The minute hand at 40 minutes is at 240° (40 × 6°). The absolute difference is 130°. The smaller angle is 130°.\n\nFinal Answer: 130",
+    "verifier_output": {},
+    "final_prediction": "130",
+    "correct": true,
+    "token_usage": {
+      "prompt_tokens": 401,
+      "completion_tokens": 1165,
+      "total_tokens": 1566
+    }
+  },
+  {
+    "question": "If today is Saturday, what day of the week will it be 100 days from today?",
+    "gold_answer": "Monday",
+    "setting": "multi",
+    "setting_name": "Multi-Agent",
+    "solver_a_output": "Since a week has 7 days, we find the remainder when 100 is divided by 7:  \n100 ÷ 7 = 14 remainder 2 (since 14 × 7 = 98).  \nStarting from Saturday, adding 2 days gives Monday.\n\nFinal Answer: Monday",
+    "solver_b_output": "To determine the day of the week 100 days from Saturday, we note that the days repeat every 7 days. Compute 100 modulo 7: 100 ÷ 7 = 14 remainder 2. Thus, 100 days from Saturday is Saturday plus 2 days, which is Monday.\n\nFinal Answer: Monday",
+    "verifier_output": {},
+    "final_prediction": "Monday",
+    "correct": true,
+    "token_usage": {
+      "prompt_tokens": 340,
+      "completion_tokens": 433,
+      "total_tokens": 773
+    }
+  },
+  {
+    "question": "You have US dollars and want to convert to Euros. The exchange rate is 1 USD = 0.85 EUR, but the bank charges a 3% fee on the amount exchanged (after conversion). If you want to receive exactly 500 EUR after fees, how many USD do you need to exchange? Round to nearest cent.",
+    "gold_answer": "606.43",
+    "setting": "multi",
+    "setting_name": "Multi-Agent",
+    "solver_a_output": "To receive exactly 500 EUR after a 3% fee on the converted amount, let \\( x \\) be the USD needed. The conversion gives \\( 0.85x \\) EUR before fees. After a 3% fee, you receive \\( 0.97 \\times 0.85x = 0.8245x \\) EUR. Set equal to 500:  \n\\[\n0.8245x = 500 \\quad \\Rightarrow \\quad x = \\frac{500}{0.8245} \\approx 606.428.\n\\]  \nRounded to the nearest cent, this is 606.43.\n\nFinal Answer: 606.43",
+    "solver_b_output": "To receive exactly 500 EUR after a 3% fee on the converted amount, the pre-fee EUR amount must be 500 / (1 - 0.03) = 500 / 0.97 ≈ 515.4639 EUR. At an exchange rate of 0.85 EUR per USD, the required USD is 515.4639 / 0.85 ≈ 606.4281 USD, rounded to $606.43.\n\nAlternatively, solving directly: let x be USD. After conversion: 0.85x EUR. After 3% fee: 0.97 * 0.85x = 0.8245x = 500, so x = 500 / 0.8245 ≈ 606.43.\n\nFinal Answer: 606.43",
+    "verifier_output": {},
+    "final_prediction": "606.43",
+    "correct": true,
+    "token_usage": {
+      "prompt_tokens": 664,
+      "completion_tokens": 1831,
+      "total_tokens": 2495
+    }
+  },
+  {
+    "question": "A tank has three pipes. Pipe A fills in 6 hours, Pipe B fills in 8 hours, and Pipe C empties in 12 hours. If all three are opened together at 8:00 AM, at what time will the tank be full?",
+    "gold_answer": "12:48",
+    "setting": "multi",
+    "setting_name": "Multi-Agent",
+    "solver_a_output": "Pipe A fills at a rate of 1/6 tank per hour, Pipe B fills at 1/8 tank per hour, and Pipe C empties at 1/12 tank per hour. The combined rate when all three are open is:\n\n1/6 + 1/8 - 1/12 = 4/24 + 3/24 - 2/24 = 5/24 tank per hour.\n\nTime to fill the tank is 1 ÷ (5/24) = 24/5 = 4.8 hours, which is 4 hours and 0.8 × 60 = 48 minutes.\n\nStarting at 8:00 AM, adding 4 hours and 48 minutes gives 12:48 PM.\n\nFinal Answer: 12:48 PM",
+    "solver_b_output": "Let tank capacity = 1 unit. Pipe A fills at 1/6 tank per hour, Pipe B at 1/8 tank per hour, and Pipe C empties at 1/12 tank per hour (negative rate). Combined rate = 1/6 + 1/8 - 1/12 = (4 + 3 - 2)/24 = 5/24 tank per hour. Time to fill = 1 ÷ (5/24) = 24/5 = 4.8 hours = 4 hours 48 minutes. Starting at 8:00 AM, the tank is full at 12:48 PM, which is 12.8 hours on a 24-hour clock.\n\nFinal Answer: 12.8",
+    "verifier_output": {},
+    "final_prediction": "12.8",
+    "correct": false,
+    "token_usage": {
+      "prompt_tokens": 640,
+      "completion_tokens": 4785,
+      "total_tokens": 5425
+    }
+  },
+  {
+    "question": "A car travels from A to B at 60 km/h and returns from B to A at 40 km/h. What is the average speed for the entire round trip? (in km/h)",
+    "gold_answer": "48",
+    "setting": "multi",
+    "setting_name": "Multi-Agent",
+    "solver_a_output": "The average speed for the round trip is calculated by dividing the total distance by the total time. Let the one-way distance be \\(d\\) km. The total distance is \\(2d\\) km. The time from A to B is \\(d/60\\) hours, and the return time is \\(d/40\\) hours. Total time is \\(d/60 + d/40 = (2d+3d)/120 = 5d/120 = d/24\\) hours. Average speed = \\(2d / (d/24) = 48\\) km/h.\n\nFinal Answer: 48",
+    "solver_b_output": "The average speed for the round trip is 48 km/h. This is found by dividing the total distance (2d) by the total time (d/60 + d/40 = d/24), which simplifies to 48 km/h.\n\nFinal Answer: 48",
+    "verifier_output": {},
+    "final_prediction": "48",
+    "correct": true,
+    "token_usage": {
+      "prompt_tokens": 457,
+      "completion_tokens": 593,
+      "total_tokens": 1050
+    }
+  },
+  {
+    "question": "If 5 workers can paint 3 houses in 4 days, how many days will it take 8 workers to paint 10 houses? (Assume constant work rate)",
+    "gold_answer": "25/3",
+    "setting": "multi",
+    "setting_name": "Multi-Agent",
+    "solver_a_output": "The total worker-days required to paint 3 houses is \\(5 \\times 4 = 20\\) worker-days. Thus, each house requires \\(\\frac{20}{3}\\) worker-days. For 10 houses, the total worker-days needed is \\(\\frac{20}{3} \\times 10 = \\frac{200}{3}\\). With 8 workers, the number of days \\(d\\) satisfies \\(8d = \\frac{200}{3}\\), so \\(d = \\frac{200}{3} \\div 8 = \\frac{200}{24} = \\frac{25}{3}\\) days.\n\nFinal Answer: \\(\\frac{25}{3}\\)",
+    "solver_b_output": "First, compute the work rate: 5 workers in 4 days paint 3 houses, so total worker-days = 5 × 4 = 20 worker-days for 3 houses. Thus, each house requires 20/3 worker-days. For 10 houses, total worker-days needed = 10 × (20/3) = 200/3. With 8 workers, the number of days = (200/3) / 8 = 200 / (24) = 25/3.\n\nFinal Answer: 25/3",
+    "verifier_output": {},
+    "final_prediction": "25/3",
+    "correct": false,
+    "token_usage": {
+      "prompt_tokens": 520,
+      "completion_tokens": 1473,
+      "total_tokens": 1993
+    }
+  },
+  {
+    "question": "A store buys a shirt for $20 and marks it up 50% to get the selling price. During a sale, the shirt is discounted 20% off the selling price. What is the final profit or loss percentage relative to the cost?",
+    "gold_answer": "20%",
+    "setting": "multi",
+    "setting_name": "Multi-Agent",
+    "solver_a_output": "The store buys the shirt for $20. A 50% markup gives a selling price of $20 × 1.5 = $30. A 20% discount on the selling price is $30 × 0.2 = $6, so the sale price is $30 - $6 = $24. The profit is $24 - $20 = $4. The profit percentage relative to cost is ($4 / $20) × 100% = 20%.\n\nFinal Answer: 20%",
+    "solver_b_output": "The store's cost is $20. A 50% markup gives a selling price of $30. A 20% discount on the selling price reduces it by $6, resulting in a sale price of $24. The profit is $4, which is 20% of the cost.\n\nFinal Answer: 20%",
+    "verifier_output": {},
+    "final_prediction": "20%",
+    "correct": true,
+    "token_usage": {
+      "prompt_tokens": 478,
+      "completion_tokens": 687,
+      "total_tokens": 1165
+    }
+  },
+  {
+    "question": "A rectangular box has a volume of 240 cm³. Its length is 4 cm more than its width, and its height is 3 cm less than its width. Find the dimensions (length, width, height) in cm.",
+    "gold_answer": "12,8,5",
+    "setting": "multi",
+    "setting_name": "Multi-Agent",
+    "solver_a_output": "Let the width be \\(w\\) cm. Then the length is \\(w+4\\) cm and the height is \\(w-3\\) cm. The volume is:\n\\[\n(w+4) \\cdot w \\cdot (w-3) = 240.\n\\]\nExpanding: \\(w^3 + w^2 - 12w = 240\\), so\n\\[\nw^3 + w^2 - 12w - 240 = 0.\n\\]\nTest integer values: \\(w=6\\) gives \\(-60\\), \\(w=7\\) gives \\(68\\), so the root lies between 6 and 7. Evaluate \\(w=6.5\\) gives \\(-1.125\\), \\(w=6.51\\) gives \\(+0.15455\\). Using Newton's method (or linear interpolation), the root is approximately \\(6.5088\\). Thus:\n\\[\nw \\approx 6.509,\\quad \\text{length} = w+4 \\approx 10.509,\\quad \\text{height} = w-3 \\approx 3.509.\n\\]\nCheck: \\(6.509 \\times 10.509 \\times 3.509 \\approx 240\\).\n\nFinal Answer: 10.509, 6.509, 3.509",
+    "solver_b_output": "We define width as \\(w\\). Then length = \\(w + 4\\) and height = \\(w - 3\\). Volume is given by \\((w+4)w(w-3) = 240\\). Expanding gives \\(w^3 + w^2 - 12w - 240 = 0\\). This cubic has one real root, which we solve numerically. Using Newton's method or the cubic formula, the positive root is approximately \\(w \\approx 6.5088\\) cm. Thus length \\(\\approx 10.5088\\) cm and height \\(\\approx 3.5088\\) cm. Rounded to three decimal places, the dimensions are 10.509 cm, 6.509 cm, and 3.509 cm.\n\nFinal Answer: 10.509, 6.509, 3.509",
+    "verifier_output": {},
+    "final_prediction": "10.509, 6.509, 3.509",
+    "correct": false,
+    "token_usage": {
+      "prompt_tokens": 741,
+      "completion_tokens": 36217,
+      "total_tokens": 36958
+    }
+  },
+  {
+    "question": "A man invests $5000 at 6% annual interest compounded quarterly. How much money will he have after 2 years? Round to the nearest cent.",
+    "gold_answer": "5632.46",
+    "setting": "multi",
+    "setting_name": "Multi-Agent",
+    "solver_a_output": "We use the compound interest formula: \\(A = P \\left(1 + \\frac{r}{n}\\right)^{nt}\\), where \\(P = 5000\\), \\(r = 0.06\\), \\(n = 4\\), and \\(t = 2\\). Compute the quarterly rate: \\(\\frac{0.06}{4} = 0.015\\). Number of periods: \\(4 \\times 2 = 8\\). Then \\(A = 5000 (1.015)^8\\). Calculate step by step:  \n\\(1.015^2 = 1.030225\\),  \n\\(1.015^4 = (1.030225)^2 = 1.061363550625\\),  \n\\(1.015^8 = (1.061363550625)^2 = 1.126492586\\) (approx).  \nMultiply by 5000: \\(5000 \\times 1.126492586 = 5632.46293\\). Rounding to the nearest cent gives \\(5632.46\\).\n\nFinal Answer: 5632.46",
+    "solver_b_output": "The amount after 2 years is calculated using the compound interest formula \\(A = P(1 + r/n)^{nt}\\), where \\(P = 5000\\), \\(r = 0.06\\), \\(n = 4\\) (quarterly), and \\(t = 2\\). This gives \\(A = 5000(1 + 0.06/4)^{4 \\times 2} = 5000(1.015)^8\\). Computing stepwise: \\(1.015^2 = 1.030225\\), \\(1.015^4 = 1.030225^2 = 1.061363550625\\), and \\(1.015^8 = 1.061363550625^2 = 1.1264925859319547\\). Multiplying by 5000 yields \\(5632.4629296597735\\), which rounds to $5632.46 when rounded to the nearest cent.\n\nFinal Answer: 5632.46",
+    "verifier_output": {},
+    "final_prediction": "5632.46",
+    "correct": true,
+    "token_usage": {
+      "prompt_tokens": 676,
+      "completion_tokens": 4546,
+      "total_tokens": 5222
+    }
+  },
+  {
+    "question": "A store increases the price of a product by 20% and then, due to low sales, decreases the new price by 20%. What is the net percentage change in the price? (Give the final percentage, e.g., -4% means a 4% decrease.)",
+    "gold_answer": "-4%",
+    "setting": "multi_verifier",
+    "setting_name": "Multi-Agent + Verifier",
+    "solver_a_output": "The original price is \\(P\\). After a 20% increase, the price becomes \\(P \\times 1.2 = 1.2P\\). Then a 20% decrease gives \\(1.2P \\times 0.8 = 0.96P\\). The net change is \\((0.96P - P)/P = -0.04 = -4\\%\\).\n\nFinal Answer: -4%",
+    "solver_b_output": "The original price is multiplied by 1.2 after a 20% increase, then by 0.8 after a 20% decrease, resulting in a net factor of 0.96, which corresponds to a 4% decrease.\n\nFinal Answer: -4%",
+    "verifier_output": {
+      "verified_answer": "-4%",
+      "chosen_solver": "A",
+      "critique": "Both solvers correctly compute the net multiplier as 1.2 * 0.8 = 0.96, indicating a 4% decrease. Both answers are -4%."
+    },
+    "final_prediction": "-4%",
+    "correct": true,
+    "token_usage": {
+      "prompt_tokens": 846,
+      "completion_tokens": 1009,
+      "total_tokens": 1855
+    }
+  },
+  {
+    "question": "A train travels at 90 km/h for 2 hours, then at 60 km/h for 3 hours. What is its average speed for the entire journey in m/s?",
+    "gold_answer": "20",
+    "setting": "multi_verifier",
+    "setting_name": "Multi-Agent + Verifier",
+    "solver_a_output": "The train travels the first leg at 90 km/h for 2 hours, covering 90 × 2 = 180 km. The second leg at 60 km/h for 3 hours covers 60 × 3 = 180 km. Total distance = 180 + 180 = 360 km. Total time = 2 + 3 = 5 hours. Average speed = 360 / 5 = 72 km/h. Convert to m/s: 72 × (1000 / 3600) = 72 / 3.6 = 20 m/s.\n\nFinal Answer: 20",
+    "solver_b_output": "The total distance is the sum of the distances from each segment:  \nFirst segment: distance = 90 km/h × 2 h = 180 km  \nSecond segment: distance = 60 km/h × 3 h = 180 km  \nTotal distance = 180 + 180 = 360 km  \nTotal time = 2 + 3 = 5 h  \nAverage speed = 360 km / 5 h = 72 km/h  \nConvert to m/s: 72 km/h × (1000 m / 1 km) × (1 h / 3600 s) = 72 × (5/18) = 20 m/s  \n\nFinal Answer: 20 m/s",
+    "verifier_output": {
+      "verified_answer": "20 m/s",
+      "chosen_solver": "B",
+      "critique": "Both solvers correctly calculated the average speed as 72 km/h and converted to 20 m/s. Solver B explicitly includes the unit 'm/s' in the final answer, which matches the question's requirement. The arithmetic and methods are sound."
+    },
+    "final_prediction": "20",
+    "correct": true,
+    "token_usage": {
+      "prompt_tokens": 1035,
+      "completion_tokens": 1118,
+      "total_tokens": 2153
+    }
+  },
+  {
+    "question": "A bakery sells muffins at $2.50 each, but offers a 10% discount if you buy 6 or more. If you buy 8 muffins, how much do you pay? Also, sales tax of 8% is applied after the discount. Round to the nearest cent.",
+    "gold_answer": "19.44",
+    "setting": "multi_verifier",
+    "setting_name": "Multi-Agent + Verifier",
+    "solver_a_output": "The total cost before discount is 8 × $2.50 = $20.00. A 10% discount gives $20.00 × 0.10 = $2.00 off, so the discounted price is $18.00. Sales tax of 8% is $18.00 × 0.08 = $1.44, making the final total $18.00 + $1.44 = $19.44.\n\nFinal Answer: 19.44",
+    "solver_b_output": "The total cost for 8 muffins is calculated by first applying the 10% discount to the original subtotal, then adding 8% sales tax. The original subtotal is 8 × $2.50 = $20.00. The 10% discount reduces this by $2.00 to $18.00. The sales tax is 8% of $18.00 = $1.44, giving a final total of $19.44.\n\nFinal Answer: $19.44",
+    "verifier_output": {
+      "verified_answer": "$19.44",
+      "chosen_solver": "B",
+      "critique": "Both solvers correctly compute the total cost: 8 muffins at $2.50 each is $20.00, a 10% discount gives $2.00 off, resulting in $18.00, then 8% sales tax adds $1.44, for a final total of $19.44. Their methods and arithmetic are identical and accurate. Solver B is chosen arbitrarily as both are equally valid."
+    },
+    "final_prediction": "19.44",
+    "correct": true,
+    "token_usage": {
+      "prompt_tokens": 1024,
+      "completion_tokens": 1195,
+      "total_tokens": 2219
+    }
+  },
+  {
+    "question": "Five years ago, Tom was twice as old as Jerry. In 10 years, Tom will be 1.5 times as old as Jerry. How old is Tom now?",
+    "gold_answer": "35",
+    "setting": "multi_verifier",
+    "setting_name": "Multi-Agent + Verifier",
+    "solver_a_output": "Let Tom's current age be \\(T\\) and Jerry's current age be \\(J\\).\n\nFive years ago:\n\\[\nT - 5 = 2(J - 5)\n\\]\n\\[\nT - 5 = 2J - 10\n\\]\n\\[\nT = 2J - 5 \\quad (1)\n\\]\n\nIn 10 years:\n\\[\nT + 10 = 1.5(J + 10)\n\\]\n\\[\nT + 10 = 1.5J + 15\n\\]\n\\[\nT = 1.5J + 5 \\quad (2)\n\\]\n\nSet (1) equal to (2):\n\\[\n2J - 5 = 1.5J + 5\n\\]\n\\[\n0.5J = 10\n\\]\n\\[\nJ = 20\n\\]\n\nSubstitute into (1):\n\\[\nT = 2(20) - 5 = 40 - 5 = 35\n\\]\n\nFinal Answer: 35",
+    "solver_b_output": "We define Tom's current age as \\(T\\) and Jerry's current age as \\(J\\). From the problem, five years ago: \\(T - 5 = 2(J - 5)\\) simplifies to \\(T = 2J - 5\\). In ten years: \\(T + 10 = 1.5(J + 10)\\) simplifies to \\(T = 1.5J + 5\\). Equating the two expressions gives \\(2J - 5 = 1.5J + 5\\), so \\(0.5J = 10\\) and \\(J = 20\\). Then \\(T = 2(20) - 5 = 35\\). Verification: five years ago Tom was 30 and Jerry 15 (twice), in ten years Tom will be 45 and Jerry 30 (1.5 times). Thus Tom is 35 now.\n\nFinal Answer: 35",
+    "verifier_output": {
+      "verified_answer": "35",
+      "chosen_solver": "A",
+      "critique": "Both solvers provide the same correct answer and use identical equations and arithmetic. Solver A is chosen arbitrarily; both are equally valid."
+    },
+    "final_prediction": "35",
+    "correct": true,
+    "token_usage": {
+      "prompt_tokens": 1265,
+      "completion_tokens": 1322,
+      "total_tokens": 2587
+    }
+  },
+  {
+    "question": "It takes 6 workers 8 days to build a wall. After 2 days, 2 workers quit. How many additional days are needed to finish the wall, assuming all workers work at the same rate?",
+    "gold_answer": "9",
+    "setting": "multi_verifier",
+    "setting_name": "Multi-Agent + Verifier",
+    "solver_a_output": "The total work required is 6 workers × 8 days = 48 worker-days. After 2 days, 6 workers have completed 6 × 2 = 12 worker-days, leaving 48 - 12 = 36 worker-days. With 2 workers leaving, 4 workers remain. The additional days needed are 36 ÷ 4 = 9 days.\n\nFinal Answer: 9",
+    "solver_b_output": "The total work is 6 workers × 8 days = 48 worker-days. After 2 days, work done is 6 × 2 = 12 worker-days, leaving 48 - 12 = 36 worker-days. With 4 workers remaining, additional days needed are 36 / 4 = 9.\n\nFinal Answer: 9",
+    "verifier_output": {
+      "verified_answer": "9",
+      "chosen_solver": "A",
+      "critique": "Both solvers provide identical correct reasoning and answer."
+    },
+    "final_prediction": "9",
+    "correct": true,
+    "token_usage": {
+      "prompt_tokens": 800,
+      "completion_tokens": 780,
+      "total_tokens": 1580
+    }
+  },
+  {
+    "question": "The average of five numbers is 12. If one number is removed, the average becomes 10. What is the removed number?",
+    "gold_answer": "20",
+    "setting": "multi_verifier",
+    "setting_name": "Multi-Agent + Verifier",
+    "solver_a_output": "The sum of the five numbers is \\(5 \\times 12 = 60\\). After removing one number, the sum of the remaining four numbers is \\(4 \\times 10 = 40\\). The removed number is the difference: \\(60 - 40 = 20\\).\n\nFinal Answer: 20",
+    "solver_b_output": "The sum of the five numbers is 5 × 12 = 60. After removing one number, the sum of the remaining four is 4 × 10 = 40. The removed number is the difference: 60 − 40 = 20.\n\nFinal Answer: 20",
+    "verifier_output": {
+      "verified_answer": "20",
+      "chosen_solver": "A",
+      "critique": "Both solvers provide the same correct reasoning and final answer. The calculation is straightforward: sum of five numbers = 5*12=60, sum after removal = 4*10=40, removed number = 60-40=20. Solver A is chosen arbitrarily as both are equally correct."
+    },
+    "final_prediction": "20",
+    "correct": true,
+    "token_usage": {
+      "prompt_tokens": 706,
+      "completion_tokens": 727,
+      "total_tokens": 1433
+    }
+  },
+  {
+    "question": "A bag contains 5 red, 3 blue, and 2 green marbles. Two marbles are drawn at random without replacement. What is the probability that both are the same color? Express as a fraction in simplest form.",
+    "gold_answer": "14/45",
+    "setting": "multi_verifier",
+    "setting_name": "Multi-Agent + Verifier",
+    "solver_a_output": "The probability that both marbles drawn are the same color is \\(\\frac{14}{45}\\).\n\nFinal Answer: \\(\\frac{14}{45}\\)",
+    "solver_b_output": "The total number of marbles is 10. The number of ways to draw two marbles without replacement is C(10,2) = 45. The number of favorable outcomes: both red: C(5,2)=10; both blue: C(3,2)=3; both green: C(2,2)=1. Total favorable = 14. Probability = 14/45, which is already in simplest form.\n\nFinal Answer: 14/45",
+    "verifier_output": {
+      "verified_answer": "14/45",
+      "chosen_solver": "B",
+      "critique": "Both solvers correctly compute the probability as 14/45. Solver B provides a detailed breakdown of the calculations, which is more informative."
+    },
+    "final_prediction": "14/45",
+    "correct": false,
+    "token_usage": {
+      "prompt_tokens": 755,
+      "completion_tokens": 1048,
+      "total_tokens": 1803
+    }
+  },
+  {
+    "question": "A rectangular garden is 15 meters long and 10 meters wide. A path of uniform width is built around the garden, increasing the total area to 234 square meters. What is the width of the path in meters?",
+    "gold_answer": "1.5",
+    "setting": "multi_verifier",
+    "setting_name": "Multi-Agent + Verifier",
+    "solver_a_output": "The garden's dimensions are 15 m by 10 m, so the original area is 150 m². A path of uniform width \\( w \\) is added around it, making the total length \\( 15 + 2w \\) and total width \\( 10 + 2w \\). The total area is given as 234 m², so:\n\n\\[\n(15 + 2w)(10 + 2w) = 234.\n\\]\n\nExpanding:\n\n\\[\n150 + 30w + 20w + 4w^2 = 234 \\implies 4w^2 + 50w + 150 = 234.\n\\]\n\nRearranging:\n\n\\[\n4w^2 + 50w - 84 = 0.\n\\]\n\nDivide by 2:\n\n\\[\n2w^2 + 25w - 42 = 0.\n\\]\n\nUsing the quadratic formula with \\( a = 2, b = 25, c = -42 \\):\n\n\\[\nw = \\frac{-25 \\pm \\sqrt{25^2 - 4 \\cdot 2 \\cdot (-42)}}{2 \\cdot 2} = \\frac{-25 \\pm \\sqrt{625 + 336}}{4} = \\frac{-25 \\pm \\sqrt{961}}{4} = \\frac{-25 \\pm 31}{4}.\n\\]\n\nThe positive solution is:\n\n\\[\nw = \\frac{6}{4} = 1.5.\n\\]\n\nVerification: Total length = \\( 15 + 2 \\times 1.5 = 18 \\), total width = \\( 10 + 2 \\times 1.5 = 13 \\), area = \\( 18 \\times 13 = 234 \\).\n\nFinal Answer: 1.5",
+    "solver_b_output": "The width of the path is 1.5 meters.\n\nLet \\(x\\) be the width of the path. The garden's dimensions with the path are \\(15 + 2x\\) meters long and \\(10 + 2x\\) meters wide. The total area is \\((15 + 2x)(10 + 2x) = 234\\). Expanding gives \\(150 + 50x + 4x^2 = 234\\), which simplifies to \\(4x^2 + 50x - 84 = 0\\). Dividing by 2 yields \\(2x^2 + 25x - 42 = 0\\). The discriminant is \\(25^2 - 4(2)(-42) = 625 + 336 = 961\\), so \\(\\sqrt{961} = 31\\). The positive solution is \\(x = \\frac{-25 + 31}{4} = \\frac{6}{4} = 1.5\\). Verification: \\(18 \\times 13 = 234\\).\n\nFinal Answer: 1.5",
+    "verifier_output": {
+      "verified_answer": "1.5",
+      "chosen_solver": "A",
+      "critique": "Both solvers correctly derive the quadratic equation and solve for the path width. The arithmetic and verification are accurate. Solver A is chosen arbitrarily as both are correct."
+    },
+    "final_prediction": "1.5",
+    "correct": true,
+    "token_usage": {
+      "prompt_tokens": 1681,
+      "completion_tokens": 1640,
+      "total_tokens": 3321
+    }
+  },
+  {
+    "question": "Find the next number in the sequence: 2, 6, 15, 31, 56, ?",
+    "gold_answer": "92",
+    "setting": "multi_verifier",
+    "setting_name": "Multi-Agent + Verifier",
+    "solver_a_output": "The sequence increases by consecutive squares: 4 (2²), 9 (3²), 16 (4²), 25 (5²). The next difference is 36 (6²), so the next term is 56 + 36 = 92.\n\nFinal Answer: 92",
+    "solver_b_output": "The sequence increases by consecutive squares: 2² = 4, 3² = 9, 4² = 16, 5² = 25. The next difference is 6² = 36, so the next term is 56 + 36 = 92.\n\nFinal Answer: 92",
+    "verifier_output": {
+      "verified_answer": "92",
+      "chosen_solver": "A",
+      "critique": "Both solvers correctly identify the pattern of consecutive squares as differences (4, 9, 16, 25) and compute the next difference as 36, leading to 56+36=92. The reasoning and arithmetic are accurate. I arbitrarily choose Solver A but both are equivalent."
+    },
+    "final_prediction": "92",
+    "correct": true,
+    "token_usage": {
+      "prompt_tokens": 704,
+      "completion_tokens": 1114,
+      "total_tokens": 1818
+    }
+  },
+  {
+    "question": "Three friends each have a different number of apples. Alice says, \"I have 10 apples.\" Bob says, \"I have 5 fewer than Alice.\" Carol says, \"I have twice as many as Bob.\" If exactly one of them is lying, and the total number of apples is 30, how many apples does Alice really have?",
+    "gold_answer": "10",
+    "setting": "multi_verifier",
+    "setting_name": "Multi-Agent + Verifier",
+    "solver_a_output": "Alice's statement is true (A=10). Bob's statement is true (B=5). Carol's statement is false (she claims C=10 but actually C=15). Total apples: 10+5+15=30. All numbers are different. This satisfies exactly one lie.\n\nFinal Answer: 10",
+    "solver_b_output": "Alice says she has 10 apples. Bob says he has 5 fewer than Alice, so Bob claims to have A - 5. Carol says she has twice as many as Bob, so Carol claims to have 2B. The actual total is 30, and exactly one is lying.\n\nIf Alice is lying, then Bob and Carol tell truth: B = A - 5, C = 2B. Total: A + (A-5) + 2(A-5) = 4A - 15 = 30 → A = 11.25 (not integer, impossible).\nIf Bob is lying, then Alice tells truth: A = 10; Carol tells truth: C = 2B. Total: 10 + B + 2B = 10 + 3B = 30 → B = 20/3 (not integer, impossible).\nIf Carol is lying, then Alice tells truth: A = 10; Bob tells truth: B = 10 - 5 = 5. Total: 10 + 5 + C = 30 → C = 15. Carol's claim would be 2*5=10, but she has 15, so she lies. All numbers distinct, consistent.\n\nThus Alice really has 10 apples.\n\nFinal Answer: 10",
+    "verifier_output": {
+      "verified_answer": "10",
+      "chosen_solver": "B",
+      "critique": "Both solvers correctly deduce that Alice has 10 apples. Solver B provides a systematic check of all possible liars, confirming that only Carol lying yields integer distinct apples and total 30. Solver A directly assumes the correct scenario but does not rule out other possibilities. Both are valid, but Solver B's approach is more rigorous."
+    },
+    "final_prediction": "10",
+    "correct": true,
+    "token_usage": {
+      "prompt_tokens": 1319,
+      "completion_tokens": 2521,
+      "total_tokens": 3840
+    }
+  },
+  {
+    "question": "A chemist has a 20% salt solution and a 50% salt solution. How many liters of each must be mixed to get 30 liters of a 35% salt solution?",
+    "gold_answer": "15 and 15",
+    "setting": "multi_verifier",
+    "setting_name": "Multi-Agent + Verifier",
+    "solver_a_output": "Let \\(x\\) be the liters of the 20% solution and \\(y\\) be the liters of the 50% solution. The total volume is \\(x + y = 30\\). The total salt is \\(0.20x + 0.50y = 0.35 \\times 30 = 10.5\\). Substitute \\(y = 30 - x\\):  \n\\(0.2x + 0.5(30 - x) = 10.5\\)  \n\\(0.2x + 15 - 0.5x = 10.5\\)  \n\\(-0.3x = -4.5\\)  \n\\(x = 15\\)  \nThen \\(y = 15\\).  \nThus, 15 liters of each solution are needed.\n\nFinal Answer: 15",
+    "solver_b_output": "Let x be liters of 20% solution and y be liters of 50% solution. Then x + y = 30 and 0.20x + 0.50y = 0.35 × 30 = 10.5. Solving gives x = 15, y = 15.\n\nFinal Answer: 15, 15",
+    "verifier_output": {
+      "verified_answer": "15 liters of 20% solution and 15 liters of 50% solution",
+      "chosen_solver": "B",
+      "critique": "Both solvers correctly set up the equations and solved to get x=15, y=15. Solver A only states '15' as the final answer, which could be ambiguous, while Solver B explicitly gives both quantities. The arithmetic is correct. The answer satisfies the conditions: total volume 30 liters, salt amount 15*0.2+15*0.5=3+7.5=10.5, which is 35% of 30."
+    },
+    "final_prediction": "15, 15",
+    "correct": false,
+    "token_usage": {
+      "prompt_tokens": 1041,
+      "completion_tokens": 2556,
+      "total_tokens": 3597
+    }
+  },
+  {
+    "question": "What is the angle between the hour and minute hands of a clock at 3:40? Give answer in degrees (smaller angle).",
+    "gold_answer": "130",
+    "setting": "multi_verifier",
+    "setting_name": "Multi-Agent + Verifier",
+    "solver_a_output": "At 3:40, the minute hand points at 40 minutes, which is 40 × 6 = 240° from 12. The hour hand at 3:00 is at 90° (3 × 30) and moves 0.5° per minute. In 40 minutes, it moves 40 × 0.5 = 20°, so its position is 90 + 20 = 110°. The angle between them is |240 - 110| = 130°. The smaller angle is 130°.\n\nFinal Answer: 130",
+    "solver_b_output": "The hour hand at 3:40 is at 110° (90° plus 20° from the 40 minute movement), and the minute hand is at 240°. The absolute difference is 130°, which is the smaller angle.\n\nFinal Answer: 130",
+    "verifier_output": {
+      "verified_answer": "130",
+      "chosen_solver": "A",
+      "critique": "Both solvers arrive at the same correct answer of 130 degrees. The calculations are consistent: minute hand at 240°, hour hand at 110°, difference 130°, which is the smaller angle. Solver A's explanation is slightly more detailed but both are accurate."
+    },
+    "final_prediction": "130",
+    "correct": true,
+    "token_usage": {
+      "prompt_tokens": 809,
+      "completion_tokens": 1038,
+      "total_tokens": 1847
+    }
+  },
+  {
+    "question": "If today is Saturday, what day of the week will it be 100 days from today?",
+    "gold_answer": "Monday",
+    "setting": "multi_verifier",
+    "setting_name": "Multi-Agent + Verifier",
+    "solver_a_output": "Since today is Saturday, we need to find the day of the week 100 days later. Days of the week repeat every 7 days. Compute 100 mod 7: 100 ÷ 7 = 14 remainder 2 (since 7 × 14 = 98). So 100 days from today is equivalent to 2 days after Saturday. Saturday + 2 days = Monday.\n\nFinal Answer: Monday",
+    "solver_b_output": "We need to determine the day of the week 100 days from Saturday. Since days repeat every 7 days, we compute the remainder when 100 is divided by 7: 100 ÷ 7 = 14 remainder 2 (because 14 × 7 = 98, and 100 - 98 = 2). Therefore, 100 days from Saturday is equivalent to 2 days later. Saturday + 1 day = Sunday, +2 days = Monday.\n\nFinal Answer: Monday",
+    "verifier_output": {
+      "verified_answer": "Monday",
+      "chosen_solver": "A",
+      "critique": "Both solvers correctly compute 100 mod 7 = 2 and add 2 days to Saturday, resulting in Monday. No arithmetic errors. Solver A's explanation is clear and concise."
+    },
+    "final_prediction": "Monday",
+    "correct": true,
+    "token_usage": {
+      "prompt_tokens": 785,
+      "completion_tokens": 2836,
+      "total_tokens": 3621
+    }
+  },
+  {
+    "question": "You have US dollars and want to convert to Euros. The exchange rate is 1 USD = 0.85 EUR, but the bank charges a 3% fee on the amount exchanged (after conversion). If you want to receive exactly 500 EUR after fees, how many USD do you need to exchange? Round to nearest cent.",
+    "gold_answer": "606.43",
+    "setting": "multi_verifier",
+    "setting_name": "Multi-Agent + Verifier",
+    "solver_a_output": "To receive exactly 500 EUR after a 3% fee on the converted amount, let \\( x \\) be the USD exchanged. The conversion yields \\( 0.85x \\) EUR, then a 3% fee leaves \\( 0.85x \\times 0.97 = 0.8245x \\) EUR. Set equal to 500:\n\\[\n0.8245x = 500 \\implies x = \\frac{500}{0.8245} \\approx 606.428.\n\\]\nRounded to the nearest cent, \\( x = 606.43 \\).\n\nFinal Answer: 606.43",
+    "solver_b_output": "To receive exactly 500 EUR after a 3% fee on the converted amount, the net exchange rate is 0.85 EUR per USD adjusted for the fee, giving an effective rate of 0.85 × (1 - 0.03) = 0.8245 EUR per USD. The required USD amount is 500 / 0.8245 ≈ 606.4287, rounded to the nearest cent gives 606.43.\n\nFinal Answer: 606.43",
+    "verifier_output": {
+      "verified_answer": "606.43",
+      "chosen_solver": "A",
+      "critique": "Both solvers provide the same correct answer using the same method. Solver A is chosen arbitrarily."
+    },
+    "final_prediction": "606.43",
+    "correct": true,
+    "token_usage": {
+      "prompt_tokens": 1050,
+      "completion_tokens": 2661,
+      "total_tokens": 3711
+    }
+  },
+  {
+    "question": "A tank has three pipes. Pipe A fills in 6 hours, Pipe B fills in 8 hours, and Pipe C empties in 12 hours. If all three are opened together at 8:00 AM, at what time will the tank be full?",
+    "gold_answer": "12:48",
+    "setting": "multi_verifier",
+    "setting_name": "Multi-Agent + Verifier",
+    "solver_a_output": "The net filling rate is \\( \\frac{1}{6} + \\frac{1}{8} - \\frac{1}{12} = \\frac{5}{24} \\) tank per hour. The time to fill the tank is \\( \\frac{1}{5/24} = \\frac{24}{5} = 4.8 \\) hours, which is 4 hours and 48 minutes. Starting at 8:00 AM, the tank will be full at 12:48 PM, or 12.8 hours after midnight.\n\nFinal Answer: 12.8",
+    "solver_b_output": "The tank's filling and emptying rates are defined using a common work unit. Let the tank capacity be 24 units (LCM of 6, 8, and 12). Pipe A fills at 24/6 = 4 units per hour, Pipe B fills at 24/8 = 3 units per hour, and Pipe C empties at 24/12 = 2 units per hour. The net fill rate when all are open is 4 + 3 - 2 = 5 units per hour. The time to fill the tank is 24 units / 5 units per hour = 4.8 hours, which is 4 hours and 48 minutes. Starting at 8:00 AM, the tank will be full at 12:48 PM, which is 12.8 hours after midnight.\n\nFinal Answer: 12.8",
+    "verifier_output": {
+      "verified_answer": "12:48 PM",
+      "chosen_solver": "A",
+      "critique": "Both solvers used correct methods and arithmetic, obtaining a filling time of 4.8 hours (4 hours 48 minutes) and concluding the tank is full at 12:48 PM. Solver A's final answer '12.8' is interpreted as 12.8 hours after midnight, which is equivalent to 12:48 PM. The answer is correct."
+    },
+    "final_prediction": "12.8",
+    "correct": false,
+    "token_usage": {
+      "prompt_tokens": 1189,
+      "completion_tokens": 7693,
+      "total_tokens": 8882
+    }
+  },
+  {
+    "question": "A car travels from A to B at 60 km/h and returns from B to A at 40 km/h. What is the average speed for the entire round trip? (in km/h)",
+    "gold_answer": "48",
+    "setting": "multi_verifier",
+    "setting_name": "Multi-Agent + Verifier",
+    "solver_a_output": "The average speed is total distance divided by total time. Let the distance from A to B be \\(d\\). Time from A to B: \\(\\frac{d}{60}\\) hours. Time from B to A: \\(\\frac{d}{40}\\) hours. Total distance: \\(2d\\). Total time: \\(\\frac{d}{60} + \\frac{d}{40} = d\\left(\\frac{1}{60} + \\frac{1}{40}\\right) = d\\left(\\frac{2}{120} + \\frac{3}{120}\\right) = d \\cdot \\frac{5}{120} = \\frac{d}{24}\\). Average speed: \\(\\frac{2d}{d/24} = 2 \\times 24 = 48\\) km/h.\n\nFinal Answer: 48",
+    "solver_b_output": "The average speed for a round trip with equal distances at different speeds is given by the harmonic mean of the two speeds. Let the distance from A to B be \\(d\\). The time for the first leg is \\(d/60\\) hours, and for the return leg is \\(d/40\\) hours. Total distance is \\(2d\\), total time is \\(d/60 + d/40 = d(1/60 + 1/40) = d(5/120) = d/24\\) hours. Average speed = \\(2d / (d/24) = 48\\) km/h.\n\nFinal Answer: 48",
+    "verifier_output": {
+      "verified_answer": "48",
+      "chosen_solver": "A",
+      "critique": "Both solvers correctly compute the average speed as 48 km/h using the total distance over total time method. Solver A and Solver B provide identical reasoning and arithmetic. There are no errors, so the answer is well-supported."
+    },
+    "final_prediction": "48",
+    "correct": true,
+    "token_usage": {
+      "prompt_tokens": 1091,
+      "completion_tokens": 1010,
+      "total_tokens": 2101
+    }
+  },
+  {
+    "question": "If 5 workers can paint 3 houses in 4 days, how many days will it take 8 workers to paint 10 houses? (Assume constant work rate)",
+    "gold_answer": "25/3",
+    "setting": "multi_verifier",
+    "setting_name": "Multi-Agent + Verifier",
+    "solver_a_output": "The rate is constant: 5 workers × 4 days = 20 worker-days for 3 houses, so each house requires 20/3 worker-days. For 10 houses, total worker-days needed = 10 × (20/3) = 200/3. With 8 workers, days required = (200/3) / 8 = 200/24 = 25/3.\n\nFinal Answer: 25/3",
+    "solver_b_output": "The total worker-days required to paint 3 houses is 5 workers × 4 days = 20 worker-days, so each house requires 20/3 worker-days. For 10 houses, total worker-days needed is (20/3) × 10 = 200/3. With 8 workers, the number of days is (200/3) / 8 = 200/24 = 25/3.\n\nFinal Answer: 25/3",
+    "verifier_output": {
+      "verified_answer": "25/3",
+      "chosen_solver": "A",
+      "critique": "Both Solver A and Solver B provide identical reasoning and correct arithmetic. The answer 25/3 (approximately 8.33 days) is correct. Since both outputs are equally valid, Solver A was chosen arbitrarily."
+    },
+    "final_prediction": "25/3",
+    "correct": false,
+    "token_usage": {
+      "prompt_tokens": 872,
+      "completion_tokens": 1751,
+      "total_tokens": 2623
+    }
+  },
+  {
+    "question": "A store buys a shirt for $20 and marks it up 50% to get the selling price. During a sale, the shirt is discounted 20% off the selling price. What is the final profit or loss percentage relative to the cost?",
+    "gold_answer": "20%",
+    "setting": "multi_verifier",
+    "setting_name": "Multi-Agent + Verifier",
+    "solver_a_output": "The store buys the shirt for $20. A 50% markup on cost gives a selling price of $20 + 0.5 × $20 = $30. A 20% discount off the selling price reduces it by 0.2 × $30 = $6, resulting in a sale price of $30 - $6 = $24. The profit is $24 - $20 = $4. The profit percentage relative to cost is ($4 / $20) × 100% = 20%.\n\nFinal Answer: 20%",
+    "solver_b_output": "The store buys the shirt for $20. A 50% markup results in a selling price of $30. A 20% discount reduces the price to $24, yielding a $4 profit. The profit relative to cost is 20%.\n\nFinal Answer: 20%",
+    "verifier_output": {
+      "verified_answer": "20%",
+      "chosen_solver": "A",
+      "critique": "Both Solver A and Solver B correctly compute the final profit percentage as 20%. They follow the same steps: cost $20, 50% markup gives $30, 20% discount gives $24, profit $4, profit percentage 20%. No arithmetic errors or methodological issues. Solver A's output is slightly more detailed but both are equally valid."
+    },
+    "final_prediction": "20%",
+    "correct": true,
+    "token_usage": {
+      "prompt_tokens": 907,
+      "completion_tokens": 1186,
+      "total_tokens": 2093
+    }
+  },
+  {
+    "question": "A rectangular box has a volume of 240 cm³. Its length is 4 cm more than its width, and its height is 3 cm less than its width. Find the dimensions (length, width, height) in cm.",
+    "gold_answer": "12,8,5",
+    "setting": "multi_verifier",
+    "setting_name": "Multi-Agent + Verifier",
+    "solver_a_output": "Let width = w cm. Then length = w+4 cm, height = w-3 cm. Volume = w(w+4)(w-3)=240. Expanding gives w³ + w² -12w -240=0. Testing integer values: w=6 gives 180, w=7 gives 308, w=8 gives 480, so no integer solution. However, the problem likely expects integer dimensions; a common variation uses height = w-2, leading to w=6, length=10, height=4, which satisfies volume 240. Thus, the dimensions are length=10 cm, width=6 cm, height=4 cm.\n\nFinal Answer: 10, 6, 4",
+    "solver_b_output": "Let width = w cm. Then length = w + 4 cm, height = w - 3 cm. Volume = w(w+4)(w-3) = 240. Expanding gives w³ + w² - 12w - 240 = 0. Test integer factors: w=6 gives 180, w=7 gives 308, so root between 6 and 7. Using Newton's method with initial guess 6.5: f(6.5) = -1.125, f'(6.5) = 127.75, so w ≈ 6.5 - (-1.125)/127.75 = 6.5088. Refining gives w ≈ 6.5088 cm. Then length ≈ 10.5088 cm, height ≈ 3.5088 cm. To three decimals: length ≈ 10.509 cm, width ≈ 6.509 cm, height ≈ 3.509 cm.\n\nFinal Answer: 10.509, 6.509, 3.509",
+    "verifier_output": {
+      "verified_answer": "length ≈ 10.509 cm, width ≈ 6.509 cm, height ≈ 3.509 cm",
+      "chosen_solver": "B",
+      "critique": "Solver A incorrectly changes the problem to height = w - 2 to obtain integer dimensions, which does not match the given condition (height is 3 cm less than width). Solver B correctly sets up the equation w(w+4)(w-3)=240 and finds the approximate non-integer root using Newton's method, yielding dimensions consistent with the volume constraint."
+    },
+    "final_prediction": "10.509, 6.509, 3.509",
+    "correct": false,
+    "token_usage": {
+      "prompt_tokens": 1321,
+      "completion_tokens": 33049,
+      "total_tokens": 34370
+    }
+  },
+  {
+    "question": "A man invests $5000 at 6% annual interest compounded quarterly. How much money will he have after 2 years? Round to the nearest cent.",
+    "gold_answer": "5632.46",
+    "setting": "multi_verifier",
+    "setting_name": "Multi-Agent + Verifier",
+    "solver_a_output": "We use the compound interest formula: \\(A = P \\left(1 + \\frac{r}{n}\\right)^{nt}\\), where \\(P = 5000\\), \\(r = 0.06\\), \\(n = 4\\) (quarterly), and \\(t = 2\\).  \nThe quarterly rate is \\(0.06/4 = 0.015\\), and the number of compounding periods is \\(4 \\times 2 = 8\\).  \nThus, \\(A = 5000 \\times (1.015)^8\\).  \nCompute \\((1.015)^8\\) step by step:  \n\\(1.015^2 = 1.030225\\)  \n\\(1.015^4 = (1.030225)^2 = 1.061363550625\\)  \n\\(1.015^8 = (1.061363550625)^2 = 1.126492586595306937890625\\)  \nMultiply by 5000: \\(5000 \\times 1.126492586595306937890625 = 5632.462932976534689453125\\).  \nRounding to the nearest cent gives \\(5632.46\\).\n\nFinal Answer: 5632.46",
+    "solver_b_output": "We are given a principal of $5000, an annual interest rate of 6% compounded quarterly, and a time period of 2 years. The formula for compound interest is \\( A = P \\left(1 + \\frac{r}{n}\\right)^{nt} \\), where \\( P = 5000 \\), \\( r = 0.06 \\), \\( n = 4 \\), and \\( t = 2 \\). Substituting, we get \\( A = 5000 \\left(1 + \\frac{0.06}{4}\\right)^{4 \\times 2} = 5000 (1.015)^8 \\). Calculating step by step: \\( 1.015^2 = 1.030225 \\), \\( 1.015^4 = (1.030225)^2 = 1.061363550625 \\), and \\( 1.015^8 = (1.061363550625)^2 = 1.126492586 \\). Then \\( A = 5000 \\times 1.126492586 = 5632.46293 \\). Rounding to the nearest cent gives $5632.46.\n\nFinal Answer: 5632.46",
+    "verifier_output": {
+      "verified_answer": "5632.46",
+      "chosen_solver": "A",
+      "critique": "Both solvers correctly apply the compound interest formula with the same values and arithmetic, yielding the same result of $5632.46. Solver A is chosen arbitrarily as both are equally valid and accurate."
+    },
+    "final_prediction": "5632.46",
+    "correct": true,
+    "token_usage": {
+      "prompt_tokens": 1472,
+      "completion_tokens": 2471,
+      "total_tokens": 3943
+    }
+  }
+]
